@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MASS 7.2-20\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
-"POT-Creation-Date: 2023-11-28 20:11\n"
+"POT-Creation-Date: 2024-09-15 20:16\n"
 "PO-Revision-Date: 2021-04-12 18:55+0200\n"
 "Last-Translator: Philippe Grosjean <phgrosjean@sciviews.org>\n"
 "Language-Team: French <R-core@r-project.org>\n"
@@ -18,558 +18,949 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 2.4.2\n"
 
-msgid "no terms in scope"
-msgstr "aucun terme dans la portée de la formule"
-
-msgid "no terms in scope for adding to object"
-msgstr "aucun terme dans la portée de la formule à ajouter à l'objet"
-
-msgid "trying + %s"
-msgstr "essai de + %s"
-
-msgid "number of rows in use has changed: remove missing values?"
-msgstr ""
-"le nombre de lignes utilisées a changé : retirer les valeurs manquantes ?"
-
-msgid "F test assumes 'quasi%s' family"
-msgstr "Le test F suppose la famille 'quasi%s'"
-
-msgid "no 'addterm' method implemented for \"mlm\" models"
-msgstr "pas de méthode 'addterm' implémentée pour les modèles\" mlm\""
-
-msgid "scope is not a subset of term labels"
-msgstr ""
-"la portée de la formule n'est pas un sous-ensemble des étiquettes des termes"
-
-msgid "trying - %s"
-msgstr "essai de - %s"
-
-msgid "'dropterm' not implemented for \"mlm\" fits"
-msgstr "'dropterm' n'est pas implémenté pour les ajustements \"mlm\""
-
-msgid "iteration limit reached near 'x = %f'"
-msgstr "nombre limite d'iterations atteint vers 'x = %f'"
-
-msgid "%s does not have both 'qr' and 'y' components"
-msgstr "%s n'a pas de composantes 'qr' et 'y'"
-
-msgid "response variable must be positive"
-msgstr "la variable réponse doit être positive"
-
-msgid "invalid number of levels"
-msgstr "nombre de niveaux incorrect"
-
-msgid "frequency table is %d-dimensional"
-msgstr "le tableau de fréquences a %d dimensions"
-
-msgid "invalid table specification"
-msgstr "spécification incorrecte de la table de contingence"
-
-msgid "higher-way table requested.  Only 2-way allowed"
-msgstr ""
-"nombre insuffisant de dimensions de la table. Seules deux dimensions sont "
-"admises"
-
-msgid "negative or non-integer entries in table"
-msgstr "valeurs négatives ou non entières dans le tableau"
-
-msgid "all frequencies are zero"
-msgstr "toutes les fréquences sont nulles"
-
-msgid "empty row or column in table"
-msgstr "ligne ou colonne vide dans la table"
-
-msgid "biplot is only possible if nf >= 2"
-msgstr "le biplot est possible seulement lorsque nf >= 2"
-
-msgid "missing or infinite values in 'x'"
-msgstr "valeurs manquantes ou infinies dans 'x'"
-
-msgid "length of 'wt' must equal number of observations"
-msgstr "la longueur de 'wt' doit être égale au nombre d'observations"
-
-msgid "negative weights not allowed"
-msgstr "poids négatifs non admis"
-
-msgid "no positive weights"
-msgstr "aucun poids positif"
-
-msgid "'center' is not the right length"
-msgstr "'center' n'a pas la bonne longueur"
-
-msgid "Probable convergence failure"
-msgstr "Absence probable de convergence"
-
-msgid "'uin' is too large to fit plot in"
-msgstr "'uin' est trop grand pour y ajuster le graphique"
-
-msgid "'x' must be a non-empty numeric vector"
-msgstr "'x' doit être un vecteur numérique non vide"
-
-msgid "'x' contains missing or infinite values"
-msgstr "valeurs manquantes ou infinies dans 'x'"
-
-msgid "'densfun' must be supplied as a function or name"
-msgstr "'densfun' doit être fourni comme une fonction ou comme un nom"
-
-msgid "unsupported distribution"
-msgstr "distribution non supportée"
-
-msgid "supplying pars for the %s distribution is not supported"
-msgstr "fixer des paramètres pour la distribution %s n'est pas supporté"
-
-msgid "need positive values to fit a log-Normal"
-msgstr "des valeurs positives sont requises pour ajuster un modèle log-Normal"
-
-msgid "Exponential values must be >= 0"
-msgstr "Les valeurs exponentielles doivent être >= 0"
-
-msgid "Weibull values must be > 0"
-msgstr "Les valeurs Weibull doivent être > 0"
-
-msgid "gamma values must be >= 0"
-msgstr "les valeurs gamma doivent être >= 0"
-
-msgid "'start' must be a named list"
-msgstr "'start' doit être une liste nommée"
-
-msgid "'start' specifies names which are not arguments to 'densfun'"
-msgstr "'start' spécifie des noms qui ne sont pas des arguments de 'densfun'"
-
-msgid "optimization failed"
-msgstr "l'optimisation a échoué"
-
-msgid "only 'REML = FALSE' is implemented"
-msgstr "seulement 'REML = FALSE' est implémenté"
-
-msgid "Initial estimate: %s"
-msgstr "Estimations initiales : %s"
-
-msgid "Iter. %d Alpha: %s"
-msgstr "Itér. %d Alpha : %s"
-
-msgid "iteration limit reached"
-msgstr "nombre limite d'iterations atteint"
-
-msgid "package 'nlme' is essential"
-msgstr "le package 'nlme' est essentiel"
-
-msgid "'family' not recognized"
-msgstr "'family' non reconnu"
-
-msgid "iteration %d"
-msgstr "itération %d"
-
-msgid "'anova' is not available for PQL fits"
-msgstr "'anova' n'est pas disponible pour un ajustement PQL"
-
-msgid "cannot estimate scale: MAD is zero for this sample"
-msgstr "impossible d'estimer l'échelle : MAD est nul pour cet échantillon"
-
-msgid "an initial configuration must be supplied with NA/Infs in 'd'"
-msgstr "une configuration initiale doit être fournie avec NA/Infs dans 'd'"
-
-msgid "'y' must be a matrix"
-msgstr "'y' doit être une matrice"
-
-msgid "distances must be result of 'dist' or a square matrix"
-msgstr "les distances doivent provenir de 'dist', ou être une matrice carrée"
-
-msgid "invalid size"
-msgstr "taille incorrecte"
-
-msgid "zero or negative distance between objects %d and %d"
-msgstr "distance négative ou nulle entre les objets %d et %d"
-
-msgid "not enough non-missing data"
-msgstr "pas assez de données non manquantes"
-
-msgid "invalid initial configuration"
-msgstr "configuration initale incorrecte"
-
-msgid "initial configuration must be complete"
-msgstr "la configuration initiale doit être complète"
-
-msgid "invalid row(x)"
-msgstr "row(x) incorrect"
-
-msgid "invalid length(d)"
-msgstr "length(d) incorrect"
-
-msgid "data vectors must be the same length"
-msgstr "les vecteurs de données doivent avoir la même longueur"
-
-msgid "missing or infinite values in the data are not allowed"
-msgstr ""
-"les valeurs manquantes ou infinies ne sont pas admises dans les données"
-
-msgid "only finite values are allowed in 'lims'"
-msgstr "seules des valeurs finies sont autorisées pour 'lims'"
-
-msgid "bandwidths must be strictly positive"
-msgstr "les largeurs de bandes doivent être strictement positives"
-
-msgid "'x' is not a matrix"
-msgstr "'x' n'est pas une matrice"
-
-msgid "infinite, NA or NaN values in 'x'"
-msgstr "valeurs infinies, NA ou NaN dans 'x'"
-
-msgid "nrow(x) and length(grouping) are different"
-msgstr "nrow(x) et length(grouping) sont différents"
-
-msgid "invalid 'prior'"
-msgstr "'prior' incorrect"
-
-msgid "'prior' is of incorrect length"
-msgstr "'prior' est de longueur incorrecte"
-
-msgid "cannot use leave-one-out CV with method %s"
-msgstr "impossible d'utiliser la VC par eustachage pour la méthode %s"
-
-msgid "rank = 0: variables are numerically constant"
-msgstr "rank = 0 : les variables sont numériquement constantes"
-
-msgid "variables are collinear"
-msgstr "les variables sont colinéaires"
-
-msgid "'nu' must exceed 2"
-msgstr "'nu' doit être supérieur à 2"
-
-msgid "group means are numerically identical"
-msgstr "les moyennes par groupes sont numériquement identiques"
-
-msgid "object not of class \"lda\""
-msgstr "l'objet n'est pas de classe \"lda\""
-
-msgid "wrong number of variables"
-msgstr "nombre de variables incorrect"
-
-msgid "variable names in 'newdata' do not match those in 'object'"
-msgstr ""
-"les noms des variables de 'newdata' ne correspondent pas à ceux de 'object'"
-
-msgid "'breaks' must be strictly increasing"
-msgstr "'breaks' doit être strictement croissant"
-
-msgid "'breaks' do not cover the data"
-msgstr "'breaks' ne recouvre pas toutes les données"
-
-msgid "dim(W) is not correct"
-msgstr "dim(W) est incorrect"
-
-msgid "'W' is not positive definite"
-msgstr "'W' n'est pas définie positive"
-
-msgid "'data' has no 'terms' attribute"
-msgstr "'data' n'a pas d'attribut 'terms'"
-
-msgid "formula specifies no response"
-msgstr "la formule ne spécifie aucune réponse"
-
-msgid "'object' has no 'call' component.  Updating not possible"
-msgstr "'object' n'a pas de composante 'call'. Mise à jour impossible"
-
-msgid "Response variable must be positive after additions"
-msgstr "La variable de réponse doit être positive après les additions"
-
-msgid "missing values are not allowed"
-msgstr "les valeurs manquantes ne sont pas admises"
-
-msgid "'x' and 'y' must have the same number of rows"
-msgstr "'x' et 'y' doivent avoir le même nombre de lignes"
-
-msgid "'quantile' must be at most %d"
-msgstr "'quantile' doit valoir au plus %d"
-
-msgid "'ps' must be at least 'p'"
-msgstr "'ps' doit valoir au moins 'p'"
-
-msgid "'lqs' failed: all the samples were singular"
-msgstr "'lqs' a échoué : tous les échantillons étaient singuliers"
-
-msgid "missing or infinite values are not allowed"
-msgstr "les valeurs manquantes ou infinies ne sont pas autorisées"
-
-msgid "at least %d cases are needed"
-msgstr "il faut au moins %d cas"
-
-msgid "'quantile' must be at least %d"
-msgstr "'quantile' doit valoir au moins %d"
-
-msgid "at least one column has IQR 0"
-msgstr "au moins une des colonnes a un EIQ de 0"
-
-msgid "Too many samples (%.3g)"
-msgstr "Trop d’échantillons (%.3g)"
-
-msgid "Too many combinations (%.3g) for nsamp = \"exact\""
-msgstr "Trop de combinaisons (%.3g) pour nsamp = \"exact\""
-
-msgid "'x' is probably collinear"
-msgstr "'x' est probablement colinéaire"
-
-msgid "all variables must be factors"
-msgstr "toutes les variables doivent être des facteurs"
-
-msgid "factors in 'newdata' do not match those for 'object'"
-msgstr "les facteurs de 'newdata' ne correspondent pas à ceux de 'object'"
-
-msgid "'newdata' is not of the right length"
-msgstr "'newdata' n'a pas la bonne longueur"
-
-msgid "'X' must be a numeric or complex matrix"
-msgstr "'X' doit être une matrice numérique ou complexe"
-
-msgid "incompatible arguments"
-msgstr "arguments incompatibles"
-
-msgid "'Sigma' is not positive definite"
-msgstr "'Sigma' n'est pas définie positive"
-
-msgid "'theta' must be given"
-msgstr "'theta' doit être fourni"
-
-msgid "negative values not allowed for the negative binomial family"
-msgstr "valeurs négatives non autorisées pour la famille binomiale négative"
-
-msgid "tests made without re-estimating 'theta'"
-msgstr "tests réalisés sans ré-estimer 'theta'"
-
-msgid "only Chi-squared LR tests are implemented"
-msgstr "seuls les tests Chi-deux LR sont implémentés"
-
-msgid "not all objects are of class \"negbin\""
-msgstr "tous les objets ne sont pas de classe \"negbin\""
-
-msgid "unimplemented method: %s"
-msgstr "méthode non implémentée: %s"
-
-msgid "Initial fit:"
-msgstr "Ajustement initial :"
-
-msgid "Initial value for 'theta': %f"
-msgstr "Valeur initiale pour 'theta' : %f"
-
-msgid "alternation limit reached"
-msgstr "limite d'alternation atteinte"
-
-msgid "'theta' must be specified"
-msgstr "'theta' doit être spécifié"
-
-msgid ""
-"\"%s\" link not available for negative binomial family; available links are "
-"\"identity\", \"log\" and \"sqrt\""
-msgstr ""
-"lien \"%s\" non disponible pour la famille binomiale négative ; les liens "
-"possibles sont \"identity\", \"log\" et \"sqrt\""
-
-msgid "estimate truncated at zero"
-msgstr "estimation tronquée à zéro"
-
-msgid "theta.ml: iter"
-msgstr "theta.lm : itér"
-
-msgid "theta ="
-msgstr "theta ="
-
-msgid "extra arguments discarded"
-msgstr "arguments supplémentaires ignorés"
-
-msgid "at least 3 distinct 'x' values are needed"
-msgstr "il faut au moins 3 valeurs différentes de 'x'"
-
-msgid "an intercept is needed and assumed"
-msgstr "une coordonnée à l'origine est nécessaire et assumée"
-
-msgid "response must be a factor"
-msgstr "la réponse doit être un facteur"
-
-msgid "response must have 3 or more levels"
-msgstr "la réponse doit avoir au moins 3 niveaux"
-
-msgid "attempt to find suitable starting values failed"
-msgstr "la recherche de valeurs de départ correctes a échoué"
-
-msgid "design appears to be rank-deficient, so dropping some coefs"
-msgstr "le plan ne semble pas de rang plein, des coefs seront ignorés"
-
-msgid "'start' is not of the correct length"
-msgstr "'start' n'a pas la bonne longueur"
-
-msgid "Re-fitting to get Hessian"
-msgstr "Réajustement pour obtenir le Hessien"
-
-msgid "not a \"polr\" object"
-msgstr "ce n'est pas un objet \"polr\""
-
-msgid "anova is not implemented for a single \"polr\" object"
-msgstr "l'anova n'est pas implémentée pour un objet \"polr\""
-
-msgid "not all objects are of class \"polr\""
-msgstr "tous les objets ne sont pas de classe \"polr\""
-
-msgid "models were not all fitted to the same size of dataset"
-msgstr ""
-"les modèles n'ont pas tous été ajustés à la même taille des jeux de données"
-
-msgid "Parameter:"
-msgstr "Paramètre :"
-
-msgid "down"
-msgstr "vers le bas"
-
-msgid "up"
-msgstr "vers le haut"
-
-msgid ""
-"profiling has found a better solution, so original fit had not converged"
-msgstr ""
-"le profilage a donné une meilleure solution, l'ajustement original n'avait "
-"donc pas convergé"
-
-msgid "Waiting for profiling to be done..."
-msgstr "Attente de la réalisation du profilage..."
-
-msgid "weighted fits are not supported"
-msgstr "les ajustements pondérés ne sont pas supportés"
-
-msgid "some group is too small for 'qda'"
-msgstr "un groupe est trop petit pour 'qda'"
-
-msgid "rank deficiency in group %s"
-msgstr "groupe %s n'est pas de rang plein"
-
-msgid "object not of class \"qda\""
-msgstr "cet objet n'est pas de classe \"qda\""
-
-msgid "cannot have leave-one-out CV with 'newdata'"
-msgstr "VC par eustachage (lave-one-out) impossible avec 'newdata'"
-
-msgid "'x' is singular: singular fits are not implemented in 'rlm'"
-msgstr ""
-"'x' est singulière : les ajustements singuliers ne sont pas implémentés dans "
-"'rlm'"
-
-msgid "invalid 'test.vec'"
-msgstr "'test.vec' incorrect"
-
-msgid "length of 'weights' must equal number of observations"
-msgstr "la longueur de 'weights' doit être égale au nombre d'observations"
-
-msgid "negative 'weights' value"
-msgstr "valeur de 'weights' négative"
-
-msgid "some of ... do not match"
-msgstr "des éléments de ... ne correspondent pas"
-
-msgid "'init' method is unknown"
-msgstr "méthode 'init' inconnue"
-
-msgid "'c' must be at least 1.548 and has been ignored"
-msgstr "'c' doit valoir au moins 1.548 et il a été ignoré"
-
-msgid "'method' is unknown"
-msgstr "'method' est inconnu"
-
-msgid "'rlm' failed to converge in %d steps"
-msgstr "la convergence de 'rlm' a échoué après %d étapes"
-
-msgid "'coef' must define a contrast, i.e., sum to 0"
-msgstr "'coef' doit définir un contraste, sa somme doit donc être nulle"
-
-msgid "'coef' must have same length as 'contrast.obj'"
-msgstr "'coef' doit être de la même longueur que 'contrast.obj'"
-
-msgid "each element of '%s' must be logical"
-msgstr "tous les éléments de '%s' doivent être des valeurs booléennes"
-
-msgid "the contrast defined is empty (has no TRUE elements)"
-msgstr "le contraste défini est vide (aucun élément TRUE)"
-
-msgid "columns of 'contrast.obj' must define a contrast (sum to zero)"
-msgstr ""
-"les colonnes de 'contrast.obj' doivent définir un contraste (somme nulle)"
-
+#. R/negbin.R: gettextf("\"%s\" link not available for negative binomial family; available links are \"identity\", \"log\" and \"sqrt\"",     linktemp)
+#: R/negbin.R:0
+msgid "\"%s\" link not available for negative binomial family; available links are \"identity\", \"log\" and \"sqrt\""
+msgstr "lien \"%s\" non disponible pour la famille binomiale négative ; les liens possibles sont \"identity\", \"log\" et \"sqrt\""
+
+#. R/rms.curv.R: stop("\"gradient\" attribute missing")
+#: R/rms.curv.R:0
 msgid "\"gradient\" attribute missing"
 msgstr "attribut \"gradient\" manquant"
 
+#. R/rms.curv.R: stop("\"hessian\" attribute missing")
+#: R/rms.curv.R:0
 msgid "\"hessian\" attribute missing"
 msgstr "attribut \"hessian\" manquant"
 
-msgid "regression apparently linear"
-msgstr "régression apparemment linéaire"
+#. R/boxcox.R: gettextf("%s does not have both 'qr' and 'y' components", sQuote(deparse(substitute(object))))
+#. R/logtrans.R: gettextf("%s does not have both 'qr' and 'y' components", sQuote(deparse(substitute(object))))
+#: R/boxcox.R:0 R/logtrans.R:0
+msgid "%s does not have both 'qr' and 'y' components"
+msgstr "%s n'a pas de composantes 'qr' et 'y'"
 
-msgid "Infs not allowed in 'd'"
-msgstr "Infs interdits dans 'd'"
+#. R/mvrnorm.R: stop("'Sigma' is not positive definite")
+#: R/mvrnorm.R:0
+msgid "'Sigma' is not positive definite"
+msgstr "'Sigma' n'est pas définie positive"
 
-msgid "an initial configuration must be supplied if there are NAs in 'd'"
-msgstr ""
-"une configuration initiale doit être fournie si il y a des NAs dans 'd'"
+#. R/lm.gls.R: stop("'W' is not positive definite")
+#: R/lm.gls.R:0
+msgid "'W' is not positive definite"
+msgstr "'W' n'est pas définie positive"
 
-msgid "'use.start' cannot be used with R's version of 'glm'"
-msgstr "'use.start' n'est pas utilisable dans la version R de 'glm'"
+#. R/misc.R: stop("'X' must be a numeric or complex matrix")
+#: R/misc.R:0
+msgid "'X' must be a numeric or complex matrix"
+msgstr "'X' doit être une matrice numérique ou complexe"
 
-msgid "AIC is not defined for this model, so 'stepAIC' cannot proceed"
-msgstr "AIC n'est pas défini pour ce modèle, 'stepAIC' ne peut poursuivre"
+#. R/glmmPQL.R: stop("'anova' is not available for PQL fits")
+#: R/glmmPQL.R:0
+msgid "'anova' is not available for PQL fits"
+msgstr "'anova' n'est pas disponible pour un ajustement PQL"
 
-msgid "AIC is -infinity for this model, so 'stepAIC' cannot proceed"
-msgstr "AIC vaut -Inf pour ce modèle, 'stepAIC' ne peut poursuivre"
+#. R/lda.R: stop("'breaks' do not cover the data")
+#. R/truehist.R: stop("'breaks' do not cover the data")
+#: R/lda.R:0 R/truehist.R:0
+msgid "'breaks' do not cover the data"
+msgstr "'breaks' ne recouvre pas toutes les données"
 
-msgid "0 df terms are changing AIC"
-msgstr "les termes à 0 ddl changent l'AIC"
+#. R/lda.R: stop("'breaks' must be strictly increasing")
+#. R/truehist.R: stop("'breaks' must be strictly increasing")
+#: R/lda.R:0 R/truehist.R:0
+msgid "'breaks' must be strictly increasing"
+msgstr "'breaks' doit être strictement croissant"
 
-msgid "AIC undefined for REML fit"
-msgstr "AIC non défini pour un ajustement REML"
+#. R/rlm.R: warning("'c' must be at least 1.548 and has been ignored")
+#: R/rlm.R:0
+msgid "'c' must be at least 1.548 and has been ignored"
+msgstr "'c' doit valoir au moins 1.548 et il a été ignoré"
 
-msgid "'nbins' must result in a positive integer"
-msgstr "'nbins' doit renvoyer un entier positif"
+#. R/cov.trob.R: stop("'center' is not the right length")
+#: R/cov.trob.R:0
+msgid "'center' is not the right length"
+msgstr "'center' n'a pas la bonne longueur"
 
+#. R/rlm.R: stop("'coef' must define a contrast, i.e., sum to 0")
+#: R/rlm.R:0
+msgid "'coef' must define a contrast, i.e., sum to 0"
+msgstr "'coef' doit définir un contraste, sa somme doit donc être nulle"
+
+#. R/rlm.R: stop("'coef' must have same length as 'contrast.obj'")
+#: R/rlm.R:0
+msgid "'coef' must have same length as 'contrast.obj'"
+msgstr "'coef' doit être de la même longueur que 'contrast.obj'"
+
+#. R/loglm.R: stop("'data' has no 'terms' attribute")
+#. R/loglm.R: stop("'data' has no 'terms' attribute")
+#: R/loglm.R:0
+msgid "'data' has no 'terms' attribute"
+msgstr "'data' n'a pas d'attribut 'terms'"
+
+#. R/fitdistr.R: stop("'densfun' must be supplied as a function or name")
+#: R/fitdistr.R:0
+msgid "'densfun' must be supplied as a function or name"
+msgstr "'densfun' doit être fourni comme une fonction ou comme un nom"
+
+#. R/add.R: stop("'dropterm' not implemented for \"mlm\" fits")
+#: R/add.R:0
+msgid "'dropterm' not implemented for \"mlm\" fits"
+msgstr "'dropterm' n'est pas implémenté pour les ajustements \"mlm\""
+
+#. R/glmmPQL.R: stop("'family' not recognized")
+#: R/glmmPQL.R:0
+msgid "'family' not recognized"
+msgstr "'family' non reconnu"
+
+#. R/truehist.R: stop("'h' must be strictly positive")
+#: R/truehist.R:0
 msgid "'h' must be strictly positive"
 msgstr "'h' doit être strictement positif"
 
-msgid "uneven breaks with 'prob = FALSE' will give a misleading plot"
-msgstr ""
-"des limites irrégulières avec 'prob = FALSE' donneront un graphique trompeur"
+#. R/rlm.R: stop("'init' method is unknown")
+#: R/rlm.R:0
+msgid "'init' method is unknown"
+msgstr "méthode 'init' inconnue"
 
+#. R/lqs.R: stop("'lqs' failed: all the samples were singular", call. = FALSE)
+#: R/lqs.R:0
+msgid "'lqs' failed: all the samples were singular"
+msgstr "'lqs' a échoué : tous les échantillons étaient singuliers"
+
+#. R/rlm.R: stop("'method' is unknown")
+#: R/rlm.R:0
+msgid "'method' is unknown"
+msgstr "'method' est inconnu"
+
+#. R/truehist.R: stop("'nbins' must result in a positive integer")
+#: R/truehist.R:0
+msgid "'nbins' must result in a positive integer"
+msgstr "'nbins' doit renvoyer un entier positif"
+
+#. R/mca.R: stop("'newdata' is not of the right length")
+#: R/mca.R:0
+msgid "'newdata' is not of the right length"
+msgstr "'newdata' n'a pas la bonne longueur"
+
+#. R/lda.R: stop("'nu' must exceed 2")
+#. R/qda.R: stop("'nu' must exceed 2")
+#: R/lda.R:0 R/qda.R:0
+msgid "'nu' must exceed 2"
+msgstr "'nu' doit être supérieur à 2"
+
+#. R/loglm.R: stop("'object' has no 'call' component.  Updating not possible")
+#: R/loglm.R:0
+msgid "'object' has no 'call' component.  Updating not possible"
+msgstr "'object' n'a pas de composante 'call'. Mise à jour impossible"
+
+#. R/lda.R: stop("'prior' is of incorrect length")
+#. R/lda.R: stop("'prior' is of incorrect length")
+#. R/qda.R: stop("'prior' is of incorrect length")
+#. R/qda.R: stop("'prior' is of incorrect length")
+#: R/lda.R:0 R/qda.R:0
+msgid "'prior' is of incorrect length"
+msgstr "'prior' est de longueur incorrecte"
+
+#. R/lqs.R: warning("'ps' must be at least 'p'")
+#: R/lqs.R:0
+msgid "'ps' must be at least 'p'"
+msgstr "'ps' doit valoir au moins 'p'"
+
+#. R/lqs.R: gettextf("'quantile' must be at least %d", p + 1)
+#: R/lqs.R:0
+msgid "'quantile' must be at least %d"
+msgstr "'quantile' doit valoir au moins %d"
+
+#. R/lqs.R: gettextf("'quantile' must be at most %d", n - 1)
+#. R/lqs.R: gettextf("'quantile' must be at most %d", n - 1)
+#: R/lqs.R:0
+msgid "'quantile' must be at most %d"
+msgstr "'quantile' doit valoir au plus %d"
+
+#. R/rlm.R: gettextf("'rlm' failed to converge in %d steps", maxit)
+#: R/rlm.R:0
+msgid "'rlm' failed to converge in %d steps"
+msgstr "la convergence de 'rlm' a échoué après %d étapes"
+
+#. R/polr.R: stop("'start' is not of the correct length")
+#: R/polr.R:0
+msgid "'start' is not of the correct length"
+msgstr "'start' n'a pas la bonne longueur"
+
+#. R/fitdistr.R: stop("'start' must be a named list")
+#: R/fitdistr.R:0
+msgid "'start' must be a named list"
+msgstr "'start' doit être une liste nommée"
+
+#. R/fitdistr.R: stop("'start' specifies names which are not arguments to 'densfun'")
+#: R/fitdistr.R:0
+msgid "'start' specifies names which are not arguments to 'densfun'"
+msgstr "'start' spécifie des noms qui ne sont pas des arguments de 'densfun'"
+
+#. R/neg.bin.R: stop("'theta' must be given")
+#: R/neg.bin.R:0
+msgid "'theta' must be given"
+msgstr "'theta' doit être fourni"
+
+#. R/negbin.R: stop("'theta' must be specified")
+#. R/negbin.R: stop("'theta' must be specified")
+#: R/negbin.R:0
+msgid "'theta' must be specified"
+msgstr "'theta' doit être spécifié"
+
+#. R/eqscplot.R: stop("'uin' is too large to fit plot in")
+#: R/eqscplot.R:0
+msgid "'uin' is too large to fit plot in"
+msgstr "'uin' est trop grand pour y ajuster le graphique"
+
+#. R/stepAIC.R: warning("'use.start' cannot be used with R's version of 'glm'")
+#: R/stepAIC.R:0
+msgid "'use.start' cannot be used with R's version of 'glm'"
+msgstr "'use.start' n'est pas utilisable dans la version R de 'glm'"
+
+#. R/lqs.R: stop("'x' and 'y' must have the same number of rows")
+#: R/lqs.R:0
+msgid "'x' and 'y' must have the same number of rows"
+msgstr "'x' et 'y' doivent avoir le même nombre de lignes"
+
+#. R/fitdistr.R: stop("'x' contains missing or infinite values")
+#: R/fitdistr.R:0
+msgid "'x' contains missing or infinite values"
+msgstr "valeurs manquantes ou infinies dans 'x'"
+
+#. R/ucv.R: stop("'x' has length zero")
+#. R/ucv.R: stop("'x' has length zero")
+#. R/ucv.R: stop("'x' has length zero")
+#: R/ucv.R:0
 msgid "'x' has length zero"
 msgstr "'x' est de longueur nulle"
 
-msgid "no solution in the specified range of bandwidths"
-msgstr "pas de solution dans l'intervalle de largeur de classes"
+#. R/lda.R: stop("'x' is not a matrix")
+#. R/qda.R: stop("'x' is not a matrix")
+#: R/lda.R:0 R/qda.R:0
+msgid "'x' is not a matrix"
+msgstr "'x' n'est pas une matrice"
 
+#. R/lqs.R: stop("'x' is probably collinear")
+#: R/lqs.R:0
+msgid "'x' is probably collinear"
+msgstr "'x' est probablement colinéaire"
+
+#. R/rlm.R: stop("'x' is singular: singular fits are not implemented in 'rlm'")
+#: R/rlm.R:0
+msgid "'x' is singular: singular fits are not implemented in 'rlm'"
+msgstr "'x' est singulière : les ajustements singuliers ne sont pas implémentés dans 'rlm'"
+
+#. R/fitdistr.R: stop("'x' must be a non-empty numeric vector")
+#: R/fitdistr.R:0
+msgid "'x' must be a non-empty numeric vector"
+msgstr "'x' doit être un vecteur numérique non vide"
+
+#. R/isoMDS.R: stop("'y' must be a matrix")
+#. R/sammon.R: stop("'y' must be a matrix")
+#: R/isoMDS.R:0 R/sammon.R:0
+msgid "'y' must be a matrix"
+msgstr "'y' doit être une matrice"
+
+#. R/stepAIC.R: warning("0 df terms are changing AIC")
+#: R/stepAIC.R:0
+msgid "0 df terms are changing AIC"
+msgstr "les termes à 0 ddl changent l'AIC"
+
+#. R/stepAIC.R: stop("AIC is -infinity for this model, so 'stepAIC' cannot proceed")
+#: R/stepAIC.R:0
+msgid "AIC is -infinity for this model, so 'stepAIC' cannot proceed"
+msgstr "AIC vaut -Inf pour ce modèle, 'stepAIC' ne peut poursuivre"
+
+#. R/stepAIC.R: stop("AIC is not defined for this model, so 'stepAIC' cannot proceed")
+#: R/stepAIC.R:0
+msgid "AIC is not defined for this model, so 'stepAIC' cannot proceed"
+msgstr "AIC n'est pas défini pour ce modèle, 'stepAIC' ne peut poursuivre"
+
+#. R/stepAIC.R: stop("AIC undefined for REML fit")
+#. R/stepAIC.R: stop("AIC undefined for REML fit")
+#: R/stepAIC.R:0
+msgid "AIC undefined for REML fit"
+msgstr "AIC non défini pour un ajustement REML"
+
+#. R/fitdistr.R: stop("Exponential values must be >= 0")
+#: R/fitdistr.R:0
+msgid "Exponential values must be >= 0"
+msgstr "Les valeurs exponentielles doivent être >= 0"
+
+#. R/add.R: gettextf("F test assumes 'quasi%s' family", fam)
+#. R/add.R: gettextf("F test assumes 'quasi%s' family", fam)
+#: R/add.R:0
+msgid "F test assumes 'quasi%s' family"
+msgstr "Le test F suppose la famille 'quasi%s'"
+
+#. R/sammon.R: stop("Infs not allowed in 'd'")
+#: R/sammon.R:0
+msgid "Infs not allowed in 'd'"
+msgstr "Infs interdits dans 'd'"
+
+#. R/gamma.shape.R: gettextf("Initial estimate: %s", format(alpha))
+#: R/gamma.shape.R:0
+msgid "Initial estimate: %s"
+msgstr "Estimations initiales : %s"
+
+#. R/negbin.R: message("Initial fit:")
+#: R/negbin.R:0
+msgid "Initial fit:"
+msgstr "Ajustement initial :"
+
+#. R/negbin.R: gettextf("Initial value for 'theta': %f", signif(th))
+#: R/negbin.R:0
+msgid "Initial value for 'theta': %f"
+msgstr "Valeur initiale pour 'theta' : %f"
+
+#. R/gamma.shape.R: gettextf("Iter. %d Alpha: %s", itr, format(alpha))
+#: R/gamma.shape.R:0
+msgid "Iter. %d Alpha: %s"
+msgstr "Itér. %d Alpha : %s"
+
+#. R/polr.R: message("\nParameter:", pi, c("down", "up")[(sgn + 1)/2 + 1])
+#: R/polr.R:0
+msgid "Parameter:"
+msgstr "Paramètre :"
+
+#. R/cov.trob.R: warning("Probable convergence failure")
+#: R/cov.trob.R:0
+msgid "Probable convergence failure"
+msgstr "Absence probable de convergence"
+
+#. R/polr.R: message("\nRe-fitting to get Hessian\n")
+#: R/polr.R:0
+msgid "Re-fitting to get Hessian"
+msgstr "Réajustement pour obtenir le Hessien"
+
+#. R/logtrans.R: stop("Response variable must be positive after additions")
+#: R/logtrans.R:0
+msgid "Response variable must be positive after additions"
+msgstr "La variable de réponse doit être positive après les additions"
+
+#. R/lqs.R: sprintf("Too many combinations (%.3g) for nsamp = \"exact\"",     nsamp)
+#: R/lqs.R:0
+msgid "Too many combinations (%.3g) for nsamp = \"exact\""
+msgstr "Trop de combinaisons (%.3g) pour nsamp = \"exact\""
+
+#. R/lqs.R: sprintf("Too many samples (%.3g)", nsamp)
+#: R/lqs.R:0
+msgid "Too many samples (%.3g)"
+msgstr "Trop d’échantillons (%.3g)"
+
+#. R/polr.R: message("Waiting for profiling to be done...")
+#: R/polr.R:0
+msgid "Waiting for profiling to be done..."
+msgstr "Attente de la réalisation du profilage..."
+
+#. R/fitdistr.R: stop("Weibull values must be > 0")
+#: R/fitdistr.R:0
+msgid "Weibull values must be > 0"
+msgstr "Les valeurs Weibull doivent être > 0"
+
+#. R/corresp.R: stop("all frequencies are zero")
+#: R/corresp.R:0
+msgid "all frequencies are zero"
+msgstr "toutes les fréquences sont nulles"
+
+#. R/mca.R: stop("all variables must be factors")
+#. R/mca.R: stop("all variables must be factors")
+#: R/mca.R:0
+msgid "all variables must be factors"
+msgstr "toutes les variables doivent être des facteurs"
+
+#. R/negbin.R: warning("alternation limit reached")
+#. R/negbin.R: gettext("alternation limit reached")
+#: R/negbin.R:0
+msgid "alternation limit reached"
+msgstr "limite d'alternation atteinte"
+
+#. R/sammon.R: stop("an initial configuration must be supplied if there are NAs in 'd'")
+#: R/sammon.R:0
+msgid "an initial configuration must be supplied if there are NAs in 'd'"
+msgstr "une configuration initiale doit être fournie si il y a des NAs dans 'd'"
+
+#. R/isoMDS.R: stop("an initial configuration must be supplied with NA/Infs in 'd'")
+#: R/isoMDS.R:0
+msgid "an initial configuration must be supplied with NA/Infs in 'd'"
+msgstr "une configuration initiale doit être fournie avec NA/Infs dans 'd'"
+
+#. R/polr.R: warning("an intercept is needed and assumed")
+#: R/polr.R:0
+msgid "an intercept is needed and assumed"
+msgstr "une coordonnée à l'origine est nécessaire et assumée"
+
+#. R/polr.R: stop("anova is not implemented for a single \"polr\" object")
+#: R/polr.R:0
+msgid "anova is not implemented for a single \"polr\" object"
+msgstr "l'anova n'est pas implémentée pour un objet \"polr\""
+
+#. R/lqs.R: gettextf("at least %d cases are needed", p + 1)
+#: R/lqs.R:0
+msgid "at least %d cases are needed"
+msgstr "il faut au moins %d cas"
+
+#. R/negexp.R: stop("at least 3 distinct 'x' values are needed")
+#: R/negexp.R:0
+msgid "at least 3 distinct 'x' values are needed"
+msgstr "il faut au moins 3 valeurs différentes de 'x'"
+
+#. R/lqs.R: stop("at least one column has IQR 0")
+#: R/lqs.R:0
+msgid "at least one column has IQR 0"
+msgstr "au moins une des colonnes a un EIQ de 0"
+
+#. R/polr.R: stop("attempt to find suitable starting values failed")
+#: R/polr.R:0
+msgid "attempt to find suitable starting values failed"
+msgstr "la recherche de valeurs de départ correctes a échoué"
+
+#. R/kde2d.R: stop("bandwidths must be strictly positive")
+#: R/kde2d.R:0
+msgid "bandwidths must be strictly positive"
+msgstr "les largeurs de bandes doivent être strictement positives"
+
+#. R/corresp.R: stop("biplot is only possible if nf >= 2")
+#: R/corresp.R:0
+msgid "biplot is only possible if nf >= 2"
+msgstr "le biplot est possible seulement lorsque nf >= 2"
+
+#. R/huber.R: stop("cannot estimate scale: MAD is zero for this sample")
+#: R/huber.R:0
+msgid "cannot estimate scale: MAD is zero for this sample"
+msgstr "impossible d'estimer l'échelle : MAD est nul pour cet échantillon"
+
+#. R/qda.R: stop("cannot have leave-one-out CV with 'newdata'")
+#: R/qda.R:0
+msgid "cannot have leave-one-out CV with 'newdata'"
+msgstr "VC par eustachage (lave-one-out) impossible avec 'newdata'"
+
+#. R/lda.R: gettext("cannot use leave-one-out CV with method %s", sQuote(method))
+#. R/qda.R: gettext("cannot use leave-one-out CV with method %s", sQuote(method))
+#: R/lda.R:0 R/qda.R:0
+msgid "cannot use leave-one-out CV with method %s"
+msgstr "impossible d'utiliser la VC par eustachage pour la méthode %s"
+
+#. R/rlm.R: stop("columns of 'contrast.obj' must define a contrast (sum to zero)")
+#: R/rlm.R:0
+msgid "columns of 'contrast.obj' must define a contrast (sum to zero)"
+msgstr "les colonnes de 'contrast.obj' doivent définir un contraste (somme nulle)"
+
+#. R/kde2d.R: stop("data vectors must be the same length")
+#: R/kde2d.R:0
+msgid "data vectors must be the same length"
+msgstr "les vecteurs de données doivent avoir la même longueur"
+
+#. R/polr.R: warning("design appears to be rank-deficient, so dropping some coefs")
+#: R/polr.R:0
+msgid "design appears to be rank-deficient, so dropping some coefs"
+msgstr "le plan ne semble pas de rang plein, des coefs seront ignorés"
+
+#. R/lm.gls.R: stop("dim(W) is not correct")
+#: R/lm.gls.R:0
+msgid "dim(W) is not correct"
+msgstr "dim(W) est incorrect"
+
+#. R/isoMDS.R: stop("distances must be result of 'dist' or a square matrix")
+#. R/sammon.R: stop("distances must be result of 'dist' or a square matrix")
+#: R/isoMDS.R:0 R/sammon.R:0
+msgid "distances must be result of 'dist' or a square matrix"
+msgstr "les distances doivent provenir de 'dist', ou être une matrice carrée"
+
+#. R/polr.R: c("down", "up")
+#: R/polr.R:0
+msgid "down"
+msgstr "vers le bas"
+
+#. R/rlm.R: gettextf("each element of '%s' must be logical", substitute(contrasts.list))
+#: R/rlm.R:0
+msgid "each element of '%s' must be logical"
+msgstr "tous les éléments de '%s' doivent être des valeurs booléennes"
+
+#. R/corresp.R: stop("empty row or column in table")
+#: R/corresp.R:0
+msgid "empty row or column in table"
+msgstr "ligne ou colonne vide dans la table"
+
+#. R/negbin.R: warning("estimate truncated at zero")
+#. R/negbin.R: gettext("estimate truncated at zero")
+#. R/negbin.R: warning("estimate truncated at zero")
+#. R/negbin.R: gettext("estimate truncated at zero")
+#. R/negbin.R: warning("estimate truncated at zero")
+#. R/negbin.R: gettext("estimate truncated at zero")
+#: R/negbin.R:0
+msgid "estimate truncated at zero"
+msgstr "estimation tronquée à zéro"
+
+#. R/negbin.R: warning("extra arguments discarded")
+#: R/negbin.R:0
+msgid "extra arguments discarded"
+msgstr "arguments supplémentaires ignorés"
+
+#. R/mca.R: stop("factors in 'newdata' do not match those for 'object'")
+#: R/mca.R:0
+msgid "factors in 'newdata' do not match those for 'object'"
+msgstr "les facteurs de 'newdata' ne correspondent pas à ceux de 'object'"
+
+#. R/loglm.R: stop("formula specifies no response")
+#: R/loglm.R:0
+msgid "formula specifies no response"
+msgstr "la formule ne spécifie aucune réponse"
+
+#. R/corresp.R: gettextf("frequency table is %d-dimensional", m)
+#: R/corresp.R:0
+msgid "frequency table is %d-dimensional"
+msgstr "le tableau de fréquences a %d dimensions"
+
+#. R/fitdistr.R: stop("gamma values must be >= 0")
+#: R/fitdistr.R:0
+msgid "gamma values must be >= 0"
+msgstr "les valeurs gamma doivent être >= 0"
+
+#. R/lda.R: stop("group means are numerically identical")
+#: R/lda.R:0
+msgid "group means are numerically identical"
+msgstr "les moyennes par groupes sont numériquement identiques"
+
+#. R/corresp.R: stop("higher-way table requested.  Only 2-way allowed")
+#: R/corresp.R:0
+msgid "higher-way table requested.  Only 2-way allowed"
+msgstr "nombre insuffisant de dimensions de la table. Seules deux dimensions sont admises"
+
+#. R/mvrnorm.R: stop("incompatible arguments")
+#: R/mvrnorm.R:0
+msgid "incompatible arguments"
+msgstr "arguments incompatibles"
+
+#. R/lda.R: stop("infinite, NA or NaN values in 'x'")
+#. R/qda.R: stop("infinite, NA or NaN values in 'x'")
+#: R/lda.R:0 R/qda.R:0
+msgid "infinite, NA or NaN values in 'x'"
+msgstr "valeurs infinies, NA ou NaN dans 'x'"
+
+#. R/isoMDS.R: stop("initial configuration must be complete")
+#. R/sammon.R: stop("initial configuration must be complete")
+#: R/isoMDS.R:0 R/sammon.R:0
+msgid "initial configuration must be complete"
+msgstr "la configuration initiale doit être complète"
+
+#. R/lda.R: stop("invalid 'prior'")
+#. R/lda.R: stop("invalid 'prior'")
+#. R/qda.R: stop("invalid 'prior'")
+#. R/qda.R: stop("invalid 'prior'")
+#: R/lda.R:0 R/qda.R:0
+msgid "invalid 'prior'"
+msgstr "'prior' incorrect"
+
+#. R/rlm.R: stop("invalid 'test.vec'")
+#: R/rlm.R:0
+msgid "invalid 'test.vec'"
+msgstr "'test.vec' incorrect"
+
+#. R/isoMDS.R: stop("invalid initial configuration")
+#. R/sammon.R: stop("invalid initial configuration")
+#: R/isoMDS.R:0 R/sammon.R:0
+msgid "invalid initial configuration"
+msgstr "configuration initale incorrecte"
+
+#. R/isoMDS.R: stop("invalid length(d)")
+#: R/isoMDS.R:0
+msgid "invalid length(d)"
+msgstr "length(d) incorrect"
+
+#. R/contr.sdif.R: stop("invalid number of levels")
+#. R/contr.sdif.R: stop("invalid number of levels")
+#: R/contr.sdif.R:0
+msgid "invalid number of levels"
+msgstr "nombre de niveaux incorrect"
+
+#. R/isoMDS.R: stop("invalid row(x)")
+#: R/isoMDS.R:0
+msgid "invalid row(x)"
+msgstr "row(x) incorrect"
+
+#. R/isoMDS.R: stop("invalid size")
+#. R/sammon.R: stop("invalid size")
+#: R/isoMDS.R:0 R/sammon.R:0
+msgid "invalid size"
+msgstr "taille incorrecte"
+
+#. R/corresp.R: stop("invalid table specification")
+#: R/corresp.R:0
+msgid "invalid table specification"
+msgstr "spécification incorrecte de la table de contingence"
+
+#. R/glmmPQL.R: gettextf("iteration %d", i)
+#: R/glmmPQL.R:0
+msgid "iteration %d"
+msgstr "itération %d"
+
+#. R/gamma.shape.R: warning("iteration limit reached")
+#. R/negbin.R: warning("iteration limit reached")
+#. R/negbin.R: gettext("iteration limit reached")
+#: R/gamma.shape.R:0 R/negbin.R:0
+msgid "iteration limit reached"
+msgstr "nombre limite d'iterations atteint"
+
+#. R/area.R: gettextf("iteration limit reached near 'x = %f'", d)
+#: R/area.R:0
+msgid "iteration limit reached near 'x = %f'"
+msgstr "nombre limite d'iterations atteint vers 'x = %f'"
+
+#. R/rlm.R: stop("length of 'weights' must equal number of observations")
+#: R/rlm.R:0
+msgid "length of 'weights' must equal number of observations"
+msgstr "la longueur de 'weights' doit être égale au nombre d'observations"
+
+#. R/cov.trob.R: stop("length of 'wt' must equal number of observations")
+#: R/cov.trob.R:0
+msgid "length of 'wt' must equal number of observations"
+msgstr "la longueur de 'wt' doit être égale au nombre d'observations"
+
+#. R/ucv.R: warning("minimum occurred at one end of the range")
+#. R/ucv.R: warning("minimum occurred at one end of the range")
+#: R/ucv.R:0
 msgid "minimum occurred at one end of the range"
 msgstr "le minimum est atteint à une extrémité de l'intervalle"
 
-msgid "using the %d/%d row from a combined fit"
-msgid_plural "using the %d/%d rows from a combined fit"
-msgstr[0] "utilisation de %d/%d ligne pour un ajustement combiné"
-msgstr[1] "utilisation des %d/%d lignes pour un ajustement combiné"
+#. R/lqs.R: stop("missing or infinite values are not allowed")
+#: R/lqs.R:0
+msgid "missing or infinite values are not allowed"
+msgstr "les valeurs manquantes ou infinies ne sont pas autorisées"
 
-msgid "group %s is empty"
-msgid_plural "groups %s are empty"
-msgstr[0] "le groupe %s est vide"
-msgstr[1] "les groupes %s sont vides"
+#. R/cov.trob.R: stop("missing or infinite values in 'x'")
+#: R/cov.trob.R:0
+msgid "missing or infinite values in 'x'"
+msgstr "valeurs manquantes ou infinies dans 'x'"
 
-msgid "variable %s appears to be constant within groups"
-msgid_plural "variables %s appear to be constant within groups"
-msgstr[0] "la variable %s semble être constante à l'intérieur des groupes"
-msgstr[1] "les variables %s semblent être constantes à l'intérieur des groupes"
+#. R/kde2d.R: stop("missing or infinite values in the data are not allowed")
+#: R/kde2d.R:0
+msgid "missing or infinite values in the data are not allowed"
+msgstr "les valeurs manquantes ou infinies ne sont pas admises dans les données"
 
-msgid "only %d set, so all sets will be tried"
-msgid_plural "only %d sets, so all sets will be tried"
-msgstr[0] "seulement %d ensemble, donc tous les ensembles seront essayés"
-msgstr[1] "seulement %d ensembles, donc tous les ensembles seront essayés"
+#. R/lqs.R: stop("missing values are not allowed")
+#: R/lqs.R:0
+msgid "missing values are not allowed"
+msgstr "les valeurs manquantes ne sont pas admises"
 
+#. R/polr.R: stop("models were not all fitted to the same size of dataset")
+#: R/polr.R:0
+msgid "models were not all fitted to the same size of dataset"
+msgstr "les modèles n'ont pas tous été ajustés à la même taille des jeux de données"
+
+#. R/fitdistr.R: stop("need positive values to fit a log-Normal")
+#: R/fitdistr.R:0
+msgid "need positive values to fit a log-Normal"
+msgstr "des valeurs positives sont requises pour ajuster un modèle log-Normal"
+
+#. R/rlm.R: stop("negative 'weights' value")
+#: R/rlm.R:0
+msgid "negative 'weights' value"
+msgstr "valeur de 'weights' négative"
+
+#. R/corresp.R: warning("negative or non-integer entries in table")
+#: R/corresp.R:0
+msgid "negative or non-integer entries in table"
+msgstr "valeurs négatives ou non entières dans le tableau"
+
+#. R/neg.bin.R: stop("negative values not allowed for the negative binomial family")
+#. R/negbin.R: stop("negative values not allowed for the negative binomial family")
+#: R/neg.bin.R:0 R/negbin.R:0
+msgid "negative values not allowed for the negative binomial family"
+msgstr "valeurs négatives non autorisées pour la famille binomiale négative"
+
+#. R/cov.trob.R: stop("negative weights not allowed")
+#. R/negbin.R: stop("negative weights not allowed")
+#: R/cov.trob.R:0 R/negbin.R:0
+msgid "negative weights not allowed"
+msgstr "poids négatifs non admis"
+
+#. R/add.R: stop("no 'addterm' method implemented for \"mlm\" models")
+#: R/add.R:0
+msgid "no 'addterm' method implemented for \"mlm\" models"
+msgstr "pas de méthode 'addterm' implémentée pour les modèles\" mlm\""
+
+#. R/cov.trob.R: stop("no positive weights")
+#: R/cov.trob.R:0
+msgid "no positive weights"
+msgstr "aucun poids positif"
+
+#. R/ucv.R: stop("no solution in the specified range of bandwidths")
+#: R/ucv.R:0
+msgid "no solution in the specified range of bandwidths"
+msgstr "pas de solution dans l'intervalle de largeur de classes"
+
+#. R/add.R: stop("no terms in scope")
+#. R/add.R: stop("no terms in scope")
+#. R/add.R: stop("no terms in scope")
+#: R/add.R:0
+msgid "no terms in scope"
+msgstr "aucun terme dans la portée de la formule"
+
+#. R/add.R: stop("no terms in scope for adding to object")
+#. R/add.R: stop("no terms in scope for adding to object")
+#: R/add.R:0
+msgid "no terms in scope for adding to object"
+msgstr "aucun terme dans la portée de la formule à ajouter à l'objet"
+
+#. R/polr.R: stop("not a \"polr\" object")
+#: R/polr.R:0
+msgid "not a \"polr\" object"
+msgstr "ce n'est pas un objet \"polr\""
+
+#. R/negbin.R: stop("not all objects are of class \"negbin\"")
+#: R/negbin.R:0
+msgid "not all objects are of class \"negbin\""
+msgstr "tous les objets ne sont pas de classe \"negbin\""
+
+#. R/polr.R: stop("not all objects are of class \"polr\"")
+#: R/polr.R:0
+msgid "not all objects are of class \"polr\""
+msgstr "tous les objets ne sont pas de classe \"polr\""
+
+#. R/isoMDS.R: stop("not enough non-missing data")
+#. R/sammon.R: stop("not enough non-missing data")
+#: R/isoMDS.R:0 R/sammon.R:0
+msgid "not enough non-missing data"
+msgstr "pas assez de données non manquantes"
+
+#. R/lda.R: stop("nrow(x) and length(grouping) are different")
+#. R/qda.R: stop("nrow(x) and length(grouping) are different")
+#: R/lda.R:0 R/qda.R:0
+msgid "nrow(x) and length(grouping) are different"
+msgstr "nrow(x) et length(grouping) sont différents"
+
+#. R/add.R: stop("number of rows in use has changed: remove missing values?")
+#. R/add.R: stop("number of rows in use has changed: remove missing values?")
+#. R/stepAIC.R: stop("number of rows in use has changed: remove missing values?")
+#: R/add.R:0 R/stepAIC.R:0
+msgid "number of rows in use has changed: remove missing values?"
+msgstr "le nombre de lignes utilisées a changé : retirer les valeurs manquantes ?"
+
+#. R/lda.R: stop("object not of class \"lda\"")
+#: R/lda.R:0
+msgid "object not of class \"lda\""
+msgstr "l'objet n'est pas de classe \"lda\""
+
+#. R/qda.R: stop("object not of class \"qda\"")
+#: R/qda.R:0
+msgid "object not of class \"qda\""
+msgstr "cet objet n'est pas de classe \"qda\""
+
+#. R/fitdistr.R: stop("only 'REML = FALSE' is implemented")
+#: R/fitdistr.R:0
+msgid "only 'REML = FALSE' is implemented"
+msgstr "seulement 'REML = FALSE' est implémenté"
+
+#. R/negbin.R: warning("only Chi-squared LR tests are implemented")
+#: R/negbin.R:0
+msgid "only Chi-squared LR tests are implemented"
+msgstr "seuls les tests Chi-deux LR sont implémentés"
+
+#. R/kde2d.R: stop("only finite values are allowed in 'lims'")
+#: R/kde2d.R:0
+msgid "only finite values are allowed in 'lims'"
+msgstr "seules des valeurs finies sont autorisées pour 'lims'"
+
+#. R/fitdistr.R: stop("optimization failed")
+#: R/fitdistr.R:0
+msgid "optimization failed"
+msgstr "l'optimisation a échoué"
+
+#. R/glmmPQL.R: stop("package 'nlme' is essential")
+#: R/glmmPQL.R:0
+msgid "package 'nlme' is essential"
+msgstr "le package 'nlme' est essentiel"
+
+#. R/polr.R: stop("profiling has found a better solution, so original fit had not converged")
+#: R/polr.R:0
+msgid "profiling has found a better solution, so original fit had not converged"
+msgstr "le profilage a donné une meilleure solution, l'ajustement original n'avait donc pas convergé"
+
+#. R/lda.R: stop("rank = 0: variables are numerically constant")
+#. R/lda.R: stop("rank = 0: variables are numerically constant")
+#. R/lda.R: stop("rank = 0: variables are numerically constant")
+#: R/lda.R:0
+msgid "rank = 0: variables are numerically constant"
+msgstr "rank = 0 : les variables sont numériquement constantes"
+
+#. R/qda.R: gettextf("rank deficiency in group %s", lev[i])
+#. R/qda.R: gettextf("rank deficiency in group %s", lev[i])
+#: R/qda.R:0
+msgid "rank deficiency in group %s"
+msgstr "groupe %s n'est pas de rang plein"
+
+#. R/rms.curv.R: warning("regression apparently linear")
+#: R/rms.curv.R:0
+msgid "regression apparently linear"
+msgstr "régression apparemment linéaire"
+
+#. R/polr.R: stop("response must be a factor")
+#: R/polr.R:0
+msgid "response must be a factor"
+msgstr "la réponse doit être un facteur"
+
+#. R/polr.R: stop("response must have 3 or more levels")
+#. R/polr.R: stop("response must have 3 or more levels")
+#: R/polr.R:0
+msgid "response must have 3 or more levels"
+msgstr "la réponse doit avoir au moins 3 niveaux"
+
+#. R/boxcox.R: stop("response variable must be positive")
+#: R/boxcox.R:0
+msgid "response variable must be positive"
+msgstr "la variable réponse doit être positive"
+
+#. R/add.R: stop("scope is not a subset of term labels")
+#. R/add.R: stop("scope is not a subset of term labels")
+#: R/add.R:0
+msgid "scope is not a subset of term labels"
+msgstr "la portée de la formule n'est pas un sous-ensemble des étiquettes des termes"
+
+#. R/qda.R: stop("some group is too small for 'qda'")
+#: R/qda.R:0
+msgid "some group is too small for 'qda'"
+msgstr "un groupe est trop petit pour 'qda'"
+
+#. R/rlm.R: warning("some of ... do not match")
+#: R/rlm.R:0
+msgid "some of ... do not match"
+msgstr "des éléments de ... ne correspondent pas"
+
+#. R/fitdistr.R: gettextf("supplying pars for the %s distribution is not supported",     "log-Normal")
+#. R/fitdistr.R: gettextf("supplying pars for the %s distribution is not supported",     "Normal")
+#. R/fitdistr.R: gettextf("supplying pars for the %s distribution is not supported",     "Poisson")
+#. R/fitdistr.R: gettextf("supplying pars for the %s distribution is not supported",     "exponential")
+#. R/fitdistr.R: gettextf("supplying pars for the %s distribution is not supported",     "geometric")
+#: R/fitdistr.R:0
+msgid "supplying pars for the %s distribution is not supported"
+msgstr "fixer des paramètres pour la distribution %s n'est pas supporté"
+
+#. R/negbin.R: warning("tests made without re-estimating 'theta'")
+#: R/negbin.R:0
+msgid "tests made without re-estimating 'theta'"
+msgstr "tests réalisés sans ré-estimer 'theta'"
+
+#. R/rlm.R: stop("the contrast defined is empty (has no TRUE elements)")
+#: R/rlm.R:0
+msgid "the contrast defined is empty (has no TRUE elements)"
+msgstr "le contraste défini est vide (aucun élément TRUE)"
+
+#. R/negbin.R: message("theta.ml: iter", it, " theta =", signif(t0))
+#: R/negbin.R:0
+msgid "theta ="
+msgstr "theta ="
+
+#. R/negbin.R: message("theta.ml: iter", it, " theta =", signif(t0))
+#: R/negbin.R:0
+msgid "theta.ml: iter"
+msgstr "theta.lm : itér"
+
+#. R/add.R: gettextf("trying + %s", tt)
+#. R/add.R: gettextf("trying + %s", tt)
+#: R/add.R:0
+msgid "trying + %s"
+msgstr "essai de + %s"
+
+#. R/add.R: gettextf("trying - %s", tt)
+#. R/add.R: gettextf("trying - %s", scope[i])
+#: R/add.R:0
+msgid "trying - %s"
+msgstr "essai de - %s"
+
+#. R/truehist.R: warning("uneven breaks with 'prob = FALSE' will give a misleading plot")
+#: R/truehist.R:0
+msgid "uneven breaks with 'prob = FALSE' will give a misleading plot"
+msgstr "des limites irrégulières avec 'prob = FALSE' donneront un graphique trompeur"
+
+#. R/negbin.R: gettextf("unimplemented method: %s", sQuote(method))
+#: R/negbin.R:0
+msgid "unimplemented method: %s"
+msgstr "méthode non implémentée: %s"
+
+#. R/fitdistr.R: stop("unsupported distribution")
+#: R/fitdistr.R:0
+msgid "unsupported distribution"
+msgstr "distribution non supportée"
+
+#. R/polr.R: c("down", "up")
+#: R/polr.R:0
+msgid "up"
+msgstr "vers le haut"
+
+#. R/lda.R: warning("variable names in 'newdata' do not match those in 'object'")
+#. R/qda.R: warning("variable names in 'newdata' do not match those in 'object'")
+#: R/lda.R:0 R/qda.R:0
+msgid "variable names in 'newdata' do not match those in 'object'"
+msgstr "les noms des variables de 'newdata' ne correspondent pas à ceux de 'object'"
+
+#. R/lda.R: warning("variables are collinear")
+#. R/lda.R: warning("variables are collinear")
+#. R/lda.R: warning("variables are collinear")
+#: R/lda.R:0
+msgid "variables are collinear"
+msgstr "les variables sont colinéaires"
+
+#. R/polr.R: stop("weighted fits are not supported")
+#: R/polr.R:0
+msgid "weighted fits are not supported"
+msgstr "les ajustements pondérés ne sont pas supportés"
+
+#. R/lda.R: stop("wrong number of variables")
+#. R/qda.R: stop("wrong number of variables")
+#: R/lda.R:0 R/qda.R:0
+msgid "wrong number of variables"
+msgstr "nombre de variables incorrect"
+
+#. R/isoMDS.R: gettextf("zero or negative distance between objects %d and %d",     aa[1, 1], aa[1, 2])
+#. R/sammon.R: gettextf("zero or negative distance between objects %d and %d",     aa[1, 1], aa[1, 2])
+#: R/isoMDS.R:0 R/sammon.R:0
+msgid "zero or negative distance between objects %d and %d"
+msgstr "distance négative ou nulle entre les objets %d et %d"
+
+#. R/stdres.R: ngettext(n.miss, "%d missing observation deleted", "%d missing observations deleted")
+#: R/stdres.R:0
 msgid "%d missing observation deleted"
 msgid_plural "%d missing observations deleted"
 msgstr[0] "%d observation manquante supprimée"
 msgstr[1] "%d observations manquantes supprimées"
 
+#. R/stdres.R: ngettext(sum(excl), "%d row with zero weights not counted", "%d rows with zero weights not counted")
+#: R/stdres.R:0
 msgid "%d row with zero weights not counted"
 msgid_plural "%d rows with zero weights not counted"
 msgstr[0] "%d ligne de poids nul non comptabilisée"
 msgstr[1] "%d lignes de poids nul non comptabilisées"
+
+#. R/lda.R: ngettext(length(empty), "group %s is empty", "groups %s are empty")
+#: R/lda.R:0
+msgid "group %s is empty"
+msgid_plural "groups %s are empty"
+msgstr[0] "le groupe %s est vide"
+msgstr[1] "les groupes %s sont vides"
+
+#. R/lqs.R: ngettext(nexact, "only %d set, so all sets will be tried", "only %d sets, so all sets will be tried")
+#. R/lqs.R: ngettext(nexact, "only %d set, so all sets will be tried", "only %d sets, so all sets will be tried")
+#: R/lqs.R:0
+msgid "only %d set, so all sets will be tried"
+msgid_plural "only %d sets, so all sets will be tried"
+msgstr[0] "seulement %d ensemble, donc tous les ensembles seront essayés"
+msgstr[1] "seulement %d ensembles, donc tous les ensembles seront essayés"
+
+#. R/add.R: ngettext(newn, "using the %d/%d row from a combined fit", "using the %d/%d rows from a combined fit")
+#: R/add.R:0
+msgid "using the %d/%d row from a combined fit"
+msgid_plural "using the %d/%d rows from a combined fit"
+msgstr[0] "utilisation de %d/%d ligne pour un ajustement combiné"
+msgstr[1] "utilisation des %d/%d lignes pour un ajustement combiné"
+
+#. R/lda.R: ngettext(length(const), "variable %s appears to be constant within groups",     "variables %s appear to be constant within groups")
+#: R/lda.R:0
+msgid "variable %s appears to be constant within groups"
+msgid_plural "variables %s appear to be constant within groups"
+msgstr[0] "la variable %s semble être constante à l'intérieur des groupes"
+msgstr[1] "les variables %s semblent être constantes à l'intérieur des groupes"
 
 #~ msgid "negative values not allowed for the Negative Binomal family"
 #~ msgstr "valeurs négatives non autorisées pour la famille binomiale négative"

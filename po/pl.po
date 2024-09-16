@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MASS 7.3-50\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-16 18:31+0200\n"
+"PO-Revision-Date: 2018-06-24 19:12+0200\n"
+"Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
+"Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: MASS.c:68
+msgid "initial configuration has duplicates"
+msgstr "początkowa konfiguracja posiada duplikaty"
+
+#: MASS.c:127
+#, c-format
+msgid "stress after %3d iters: %7.5f\n"
+msgstr "naprężenie po %3d iteracjach: %7.5f\n"
+
+#: MASS.c:147
+#, c-format
+msgid "stress after %3d iters: %7.5f, magic = %5.3f\n"
+msgstr "naprężenie po %3d iteracjach: %7.5f, liczba magiczna = %5.3f\n"
+
+#: MASS.c:449
+msgid "maximum count exceeded in pairwise distance binning"
+msgstr "przekroczono maksymalne zliczenia w odległościowym przedziałowaniu "
+
+#~ msgid "Initial stress        : %7.5f\n"
+#~ msgstr "Początkowe naprężenie        : %7.5f\n"

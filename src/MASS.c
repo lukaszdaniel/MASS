@@ -22,6 +22,7 @@
 
 #include <R.h>
 #include <R_ext/Applic.h>
+#include "localization.h"
 
 #ifndef max
 #  define max(a,b) ((a) > (b) ? (a) : (b))
@@ -64,7 +65,7 @@ VR_sammon(double *dd, int *nn, int *kd, double *Y, int *niter,
 		d1 += xd * xd;
 	    }
 	    ee = d - sqrt(d1);
-	    if(d1 == 0) error("initial configuration has duplicates");
+	    if(d1 == 0) error(_("initial configuration has duplicates"));
 	    e += (ee * ee / d);
 	}
     e /= tot;
@@ -123,7 +124,7 @@ CORRECT:
 	    magic = magic * 0.2;
 	    if (magic > 1.0e-3) goto CORRECT;
 	    if (*trace) {
-		Rprintf("stress after %3d iters: %7.5f\n", i - 1, e);
+		Rprintf(_("stress after %3d iters: %7.5f\n"), i - 1, e);
 	    }
 	    break;
 	}
@@ -143,7 +144,7 @@ CORRECT:
 
 	if (i % 10 == 0) {
 	    if (*trace) {
-		Rprintf("stress after %3d iters: %7.5f, magic = %5.3f\n", i, e, magic);
+		Rprintf(_("stress after %3d iters: %7.5f, magic = %5.3f\n"), i, e, magic);
 	    }
 	    if (e > epast - *tol)
 		break;
@@ -445,7 +446,7 @@ VR_den_bin(int *n, int *nb, double *d, double *x, int *cnt)
 	    jj = (int) (x[j] / dd);
 	    iij = abs((ii - jj));
 	    if(cnt[iij] == INT_MAX)
-		error("maximum count exceeded in pairwise distance binning");
+		error(_("maximum count exceeded in pairwise distance binning"));
 	    cnt[iij]++;
 	}
     }
