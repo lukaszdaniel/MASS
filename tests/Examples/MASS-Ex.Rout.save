@@ -444,7 +444,7 @@ Response: Days
 1 1.90799       120       -1040.728                                
 2 1.92836       118       -1039.324 1 vs 2     2 1.403843 0.4956319
 > anova(m2)
-Warning in anova.negbin(m2) : tests made without re-estimating 'theta'
+Warning in 'anova.negbin(m2)': tests made without re-estimating 'theta'
 Analysis of Deviance Table
 
 Model: Negative Binomial(1.908), link: log
@@ -1690,7 +1690,7 @@ Number of Groups: 59
  ( 0.0722) ( 0.0543)
 > ## allow df to vary: not a very good idea!
 > fitdistr(x2, "t")
-Warning in dt((x - m)/s, df, log = TRUE) : NaNs produced
+Warning in 'dt((x - m)/s, df, log = TRUE)': NaNs produced
       m          s          df   
   -0.00965    1.00617    6.62729 
  ( 0.07147) ( 0.07707) ( 2.71033)
@@ -2082,8 +2082,8 @@ Degrees of Freedom: 41 Total (i.e. Null);  38 Residual
 Null Deviance:	    100.2 
 Residual Deviance: 90.34 	AIC: 225.6
 > try(glm.nb(y ~ lag1+lag2+lag3, link=identity))
-Warning in log(y/mu) : NaNs produced
-Error : no valid set of coefficients has been found: please supply starting values
+Warning in 'log(y/mu)': NaNs produced
+Error: no valid set of coefficients has been found: please supply starting values
 > glm.nb(y ~ lag1+lag2+lag3, link=identity,  start=c(2, 0.1, 0.1, 0.1))
 
 Call:  glm.nb(formula = y ~ lag1 + lag2 + lag3, start = c(2, 0.1, 0.1, 
@@ -3665,7 +3665,7 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 > par(mfrow = c(1,1), pty = "m")
 > oats.aov2 <- aov(Y ~ N + V + Error(B/V), data = oats, qr = TRUE)
 > model.tables(oats.aov2, type = "means", se = TRUE)
-Warning in model.tables.aovlist(oats.aov2, type = "means", se = TRUE) :
+Warning in 'model.tables.aovlist(oats.aov2, type = "means", se = TRUE)':
   SEs for type 'means' are not yet implemented
 Tables of means
 Grand mean
@@ -4793,7 +4793,7 @@ attr(,"SE")
 > ### ** Examples
 > 
 > ucv(geyser$duration)
-Warning in ucv(geyser$duration) :
+Warning in 'ucv(geyser$duration)':
   minimum occurred at one end of the range
 [1] 0.1746726
 > 
