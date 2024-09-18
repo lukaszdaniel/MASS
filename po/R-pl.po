@@ -420,7 +420,7 @@ msgstr "AIC nie jest zdefiniowane dla dopasowania REML"
 #. R/fitdistr.R: stop("Exponential values must be >= 0")
 #: R/fitdistr.R:0
 msgid "Exponential values must be >= 0"
-msgstr "wartości eksponencjalne muszą być  >= 0"
+msgstr "wartości eksponencjalne muszą być >= 0"
 
 # MASS/R/add.R: 246
 # warning(gettextf("F test assumes 'quasi%s' family", fam), domain = "R-MASS")
@@ -988,7 +988,7 @@ msgstr "ujemne lub niecałkowite wpisy w tabeli"
 #. R/negbin.R: stop("negative values not allowed for the negative binomial family")
 #: R/neg.bin.R:0 R/negbin.R:0
 msgid "negative values not allowed for the negative binomial family"
-msgstr "ujemne wartości nie są dozwolone dla rodziny rozkładu Pascala"
+msgstr "ujemne wartości nie są dozwolone dla rozkładu z rodziny Pascala"
 
 # MASS/R/cov.trob.R: 37
 # stop("negative weights not allowed")
