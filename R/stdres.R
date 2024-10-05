@@ -24,7 +24,7 @@ lmwork <- function(object)
     if(n.miss)
         warning(sprintf(ngettext(n.miss,
                                  "%d missing observation deleted",
-                                 "%d missing observations deleted"),
+                                 "%d missing observations deleted", domain = "R-MASS"),
                         n.miss), domain = NA)
     resid <- resid[ok]
     n <- length(resid)
@@ -39,7 +39,7 @@ lmwork <- function(object)
         if(any(excl)){
             warning(sprintf(ngettext(sum(excl),
                                      "%d row with zero weights not counted",
-                                     "%d rows with zero weights not counted"),
+                                     "%d rows with zero weights not counted", domain = "R-MASS"),
                             sum(excl)), domain = NA)
             resid <- resid[!excl]
             if(is.null(object$df.resid))

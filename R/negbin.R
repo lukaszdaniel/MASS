@@ -112,7 +112,7 @@ glm.nb <- function(formula, data, weights,
     if(!missing(method)) {
         if(!exists(method, mode = "function"))
             stop(gettextf("unimplemented method: %s", sQuote(method)),
-                 domain = NA)
+                 domain = "R-MASS")
         glm.fitter <- get(method)
     } else {
         method <- "glm.fit"
@@ -132,7 +132,7 @@ glm.nb <- function(formula, data, weights,
                              control$trace> 2)) # drop attributes
     if(control$trace > 1)
         message(gettextf("Initial value for 'theta': %f", signif(th)),
-                domain = NA)
+                domain = "R-MASS")
     fam <- do.call("negative.binomial", list(theta = th, link = link))
     iter <- 0
     d1 <- sqrt(2 * max(1, fit$df.residual))
@@ -344,13 +344,13 @@ theta.ml <-
     t0 <- n/sum(weights*(y/mu - 1)^2)
     it <- 0
     del <- 1
-    if(trace) message(sprintf("theta.ml: iter %d 'theta = %f'",
-                              it, signif(t0)), domain = NA)
+    if(trace) message(gettextf("theta.ml: iter %d 'theta = %f'",
+                              it, signif(t0)), domain = "R-MASS")
     while((it <- it + 1) < limit && abs(del) > eps) {
         t0 <- abs(t0)
         del <- score(n, t0, mu, y, weights)/(i <- info(n, t0, mu, y, weights))
         t0 <- t0 + del
-        if(trace) message("theta.ml: iter", it," theta =", signif(t0))
+        if(trace) message(gettextf("theta.ml: iter %d 'theta = %f'", it, signif(t0)))
     }
     if(t0 < 0) {
         t0 <- 0

@@ -194,7 +194,7 @@ rlm.default <-
     }
     if(!done)
         warning(gettextf("'rlm' failed to converge in %d steps", maxit),
-                domain = NA)
+                domain = "R-MASS")
     fitted <- drop(xx %*% coef)
     ## fix up call to refer to the generic, but leave arg name as `formula'
     cl <- match.call()
@@ -401,7 +401,7 @@ se.contrast.rlm <-
                    if(!is.logical(x))
                        stop(gettextf("each element of '%s' must be logical",
                                      substitute(contrasts.list)),
-                            domain = NA)
+                            domain = "R-MASS")
                    x/sum(x)
                })
         if(!length(contrast) || all(is.na(contrast)))

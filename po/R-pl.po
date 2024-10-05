@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MASS 7.3-30\n"
 "Report-Msgid-Bugs-To: bugs@R-project.org\n"
-"POT-Creation-Date: 2024-09-15 20:16\n"
+"POT-Creation-Date: 2024-10-05 20:29\n"
 "PO-Revision-Date: 2024-09-15 20:19+0200\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
@@ -1259,18 +1259,15 @@ msgstr "testy wykonano bez ponownego oszacowania 'theta'"
 msgid "the contrast defined is empty (has no TRUE elements)"
 msgstr "zdefiniowany kontrast jest pusty (nie ma PRAWDZIWYCH elementów)"
 
-#. R/negbin.R: message("theta.ml: iter", it, " theta =", signif(t0))
-#: R/negbin.R:0
-msgid "theta ="
-msgstr "theta ="
-
 # MASS/R/negbin.R: 345
 # message(sprintf("theta.ml: iter %d 'theta = %f'", it, signif(t0)), domain = "R-MASS")
 # MASS/R/negbin.R: 350
 # message(gettextf("theta.ml: iter %d 'theta = %f'", it, signif(t0)))
-#. R/negbin.R: message("theta.ml: iter", it, " theta =", signif(t0))
+#. R/negbin.R: gettextf("theta.ml: iter %d 'theta = %f'", it, signif(t0))
+#. R/negbin.R: gettextf("theta.ml: iter %d 'theta = %f'", it, signif(t0))
 #: R/negbin.R:0
-msgid "theta.ml: iter"
+#, fuzzy
+msgid "theta.ml: iter %d 'theta = %f'"
 msgstr "theta.ml: iteracja"
 
 # MASS/R/add.R: 56
@@ -1379,7 +1376,7 @@ msgstr "zerowa lub ujemna odległość pomiędzy obiektami %d oraz %d"
 #                                  "%d missing observation deleted",
 #                                  "%d missing observations deleted", domain = "R-MASS"),
 #                         n.miss), domain = NA)
-#. R/stdres.R: ngettext(n.miss, "%d missing observation deleted", "%d missing observations deleted")
+#. R/stdres.R: ngettext(n.miss, "%d missing observation deleted", "%d missing observations deleted",     domain = "R-MASS")
 #: R/stdres.R:0
 msgid "%d missing observation deleted"
 msgid_plural "%d missing observations deleted"
@@ -1392,7 +1389,7 @@ msgstr[2] "%d brakujących obserwacji zostało usuniętych"
 #                                      "%d row with zero weights not counted",
 #                                      "%d rows with zero weights not counted", domain = "R-MASS"),
 #                             sum(excl)), domain = NA)
-#. R/stdres.R: ngettext(sum(excl), "%d row with zero weights not counted", "%d rows with zero weights not counted")
+#. R/stdres.R: ngettext(sum(excl), "%d row with zero weights not counted", "%d rows with zero weights not counted",     domain = "R-MASS")
 #: R/stdres.R:0
 msgid "%d row with zero weights not counted"
 msgid_plural "%d rows with zero weights not counted"
@@ -1405,7 +1402,7 @@ msgstr[2] "%d wierszy z zerowymi wagami nie zostało zliczonych"
 #                                  "group %s is empty",
 #                                  "groups %s are empty", domain = "R-MASS"),
 #                         paste(empty, collapse = " ")), domain = NA)
-#. R/lda.R: ngettext(length(empty), "group %s is empty", "groups %s are empty")
+#. R/lda.R: ngettext(length(empty), "group %s is empty", "groups %s are empty",     domain = "R-MASS")
 #: R/lda.R:0
 msgid "group %s is empty"
 msgid_plural "groups %s are empty"
@@ -1437,7 +1434,7 @@ msgstr[2] "tylko %d zbiorów, więc wszystkie zbiory zostaną sprawdzone"
 #                                  "using the %d/%d row from a combined fit",
 #                                  "using the %d/%d rows from a combined fit", domain = "R-MASS"),
 #                         newn, oldn), domain = NA)
-#. R/add.R: ngettext(newn, "using the %d/%d row from a combined fit", "using the %d/%d rows from a combined fit")
+#. R/add.R: ngettext(newn, "using the %d/%d row from a combined fit", "using the %d/%d rows from a combined fit",     domain = "R-MASS")
 #: R/add.R:0
 msgid "using the %d/%d row from a combined fit"
 msgid_plural "using the %d/%d rows from a combined fit"
@@ -1450,13 +1447,16 @@ msgstr[2] "używanie %d/%d wierszy z połączonego dopasowania"
 #                      "variable %s appears to be constant within groups",
 #                      "variables %s appear to be constant within groups", domain = "R-MASS"),
 #                      paste(const, collapse = " ")), domain = NA)
-#. R/lda.R: ngettext(length(const), "variable %s appears to be constant within groups",     "variables %s appear to be constant within groups")
+#. R/lda.R: ngettext(length(const), "variable %s appears to be constant within groups",     "variables %s appear to be constant within groups", domain = "R-MASS")
 #: R/lda.R:0
 msgid "variable %s appears to be constant within groups"
 msgid_plural "variables %s appear to be constant within groups"
 msgstr[0] "zmienna %s wygląda na stałą wewnątrz grup"
 msgstr[1] "zmienne %s wyglądają na stałe wewnątrz grup"
 msgstr[2] "zmienne %s wyglądają na stałe wewnątrz grup"
+
+#~ msgid "theta ="
+#~ msgstr "theta ="
 
 #~ msgid "Single term additions"
 #~ msgstr "Dodawania pojedynczych członów"

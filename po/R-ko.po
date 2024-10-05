@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MASS 7.3-22\n"
-"POT-Creation-Date: 2024-09-15 20:16\n"
+"POT-Creation-Date: 2024-10-05 20:29\n"
 "PO-Revision-Date: 2013-03-11 13:47-0600\n"
 "Last-Translator: Chel Hee Lee <gnustats@gmail.com>\n"
 "Language-Team: R Development Translation Teams (Korean) <gnustats@korea.gnu.org>\n"
@@ -853,14 +853,11 @@ msgstr "'theta'를 재추정하지 않은 상태에서 만들어진 테스트들
 msgid "the contrast defined is empty (has no TRUE elements)"
 msgstr ""
 
-#. R/negbin.R: message("theta.ml: iter", it, " theta =", signif(t0))
+#. R/negbin.R: gettextf("theta.ml: iter %d 'theta = %f'", it, signif(t0))
+#. R/negbin.R: gettextf("theta.ml: iter %d 'theta = %f'", it, signif(t0))
 #: R/negbin.R:0
-msgid "theta ="
-msgstr "theta ="
-
-#. R/negbin.R: message("theta.ml: iter", it, " theta =", signif(t0))
-#: R/negbin.R:0
-msgid "theta.ml: iter"
+#, fuzzy
+msgid "theta.ml: iter %d 'theta = %f'"
 msgstr "theta.ml: iter"
 
 #. R/add.R: gettextf("trying + %s", tt)
@@ -925,19 +922,19 @@ msgstr "변수들의 개수가 잘못되었습니다"
 msgid "zero or negative distance between objects %d and %d"
 msgstr "%d와 %d 객체들 사이의 거리가 0 또는 음수입니다"
 
-#. R/stdres.R: ngettext(n.miss, "%d missing observation deleted", "%d missing observations deleted")
+#. R/stdres.R: ngettext(n.miss, "%d missing observation deleted", "%d missing observations deleted",     domain = "R-MASS")
 #: R/stdres.R:0
 msgid "%d missing observation deleted"
 msgid_plural "%d missing observations deleted"
 msgstr[0] ""
 
-#. R/stdres.R: ngettext(sum(excl), "%d row with zero weights not counted", "%d rows with zero weights not counted")
+#. R/stdres.R: ngettext(sum(excl), "%d row with zero weights not counted", "%d rows with zero weights not counted",     domain = "R-MASS")
 #: R/stdres.R:0
 msgid "%d row with zero weights not counted"
 msgid_plural "%d rows with zero weights not counted"
 msgstr[0] "가중치를 가지지 않는 %d행은 세어지지 않습니다"
 
-#. R/lda.R: ngettext(length(empty), "group %s is empty", "groups %s are empty")
+#. R/lda.R: ngettext(length(empty), "group %s is empty", "groups %s are empty",     domain = "R-MASS")
 #: R/lda.R:0
 msgid "group %s is empty"
 msgid_plural "groups %s are empty"
@@ -950,14 +947,17 @@ msgid "only %d set, so all sets will be tried"
 msgid_plural "only %d sets, so all sets will be tried"
 msgstr[0] ""
 
-#. R/add.R: ngettext(newn, "using the %d/%d row from a combined fit", "using the %d/%d rows from a combined fit")
+#. R/add.R: ngettext(newn, "using the %d/%d row from a combined fit", "using the %d/%d rows from a combined fit",     domain = "R-MASS")
 #: R/add.R:0
 msgid "using the %d/%d row from a combined fit"
 msgid_plural "using the %d/%d rows from a combined fit"
 msgstr[0] ""
 
-#. R/lda.R: ngettext(length(const), "variable %s appears to be constant within groups",     "variables %s appear to be constant within groups")
+#. R/lda.R: ngettext(length(const), "variable %s appears to be constant within groups",     "variables %s appear to be constant within groups", domain = "R-MASS")
 #: R/lda.R:0
 msgid "variable %s appears to be constant within groups"
 msgid_plural "variables %s appear to be constant within groups"
 msgstr[0] ""
+
+#~ msgid "theta ="
+#~ msgstr "theta ="

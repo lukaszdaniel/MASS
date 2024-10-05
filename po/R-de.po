@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4.1.0 / MASS 7.3-53.1\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
-"POT-Creation-Date: 2024-09-15 20:16\n"
+"POT-Creation-Date: 2024-10-05 20:29\n"
 "PO-Revision-Date: 2021-05-04 15:23+0200\n"
 "Last-Translator: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
@@ -846,15 +846,11 @@ msgstr "Tests ohne Neuabschätzung von 'theta' durchgeführt"
 msgid "the contrast defined is empty (has no TRUE elements)"
 msgstr "der definierte Kontrast ist leer (hat keine TRUE-Elemente)"
 
-#. R/negbin.R: message("theta.ml: iter", it, " theta =", signif(t0))
+#. R/negbin.R: gettextf("theta.ml: iter %d 'theta = %f'", it, signif(t0))
+#. R/negbin.R: gettextf("theta.ml: iter %d 'theta = %f'", it, signif(t0))
 #: R/negbin.R:0
-msgid "theta ="
-msgstr "theta ="
-
-#. R/negbin.R: message("theta.ml: iter", it, " theta =", signif(t0))
-#: R/negbin.R:0
-msgid "theta.ml: iter"
-msgstr "theta.ml: iter"
+msgid "theta.ml: iter %d 'theta = %f'"
+msgstr "theta.ml: iter %d 'theta = %f'"
 
 #. R/add.R: gettextf("trying + %s", tt)
 #. R/add.R: gettextf("trying + %s", tt)
@@ -918,21 +914,21 @@ msgstr "falsche Variablenanzahl"
 msgid "zero or negative distance between objects %d and %d"
 msgstr "Null oder negative Entfernung zwischen Objekten %d und %d"
 
-#. R/stdres.R: ngettext(n.miss, "%d missing observation deleted", "%d missing observations deleted")
+#. R/stdres.R: ngettext(n.miss, "%d missing observation deleted", "%d missing observations deleted",     domain = "R-MASS")
 #: R/stdres.R:0
 msgid "%d missing observation deleted"
 msgid_plural "%d missing observations deleted"
 msgstr[0] "%d fehlende Beobachtung gelöscht"
 msgstr[1] "%d fehlende Beobachtungen gelöscht"
 
-#. R/stdres.R: ngettext(sum(excl), "%d row with zero weights not counted", "%d rows with zero weights not counted")
+#. R/stdres.R: ngettext(sum(excl), "%d row with zero weights not counted", "%d rows with zero weights not counted",     domain = "R-MASS")
 #: R/stdres.R:0
 msgid "%d row with zero weights not counted"
 msgid_plural "%d rows with zero weights not counted"
 msgstr[0] "%d Zeile mit Gewicht Null nicht gezählt"
 msgstr[1] "%d Zeilen mit Gewicht Null nicht gezählt"
 
-#. R/lda.R: ngettext(length(empty), "group %s is empty", "groups %s are empty")
+#. R/lda.R: ngettext(length(empty), "group %s is empty", "groups %s are empty",     domain = "R-MASS")
 #: R/lda.R:0
 msgid "group %s is empty"
 msgid_plural "groups %s are empty"
@@ -947,22 +943,25 @@ msgid_plural "only %d sets, so all sets will be tried"
 msgstr[0] "nur %d Menge, daher werden alle Mengen getestet"
 msgstr[1] "nur %d Mengen, daher werden alle Mengen getestet"
 
-#. R/add.R: ngettext(newn, "using the %d/%d row from a combined fit", "using the %d/%d rows from a combined fit")
+#. R/add.R: ngettext(newn, "using the %d/%d row from a combined fit", "using the %d/%d rows from a combined fit",     domain = "R-MASS")
 #: R/add.R:0
 msgid "using the %d/%d row from a combined fit"
 msgid_plural "using the %d/%d rows from a combined fit"
 msgstr[0] "%d/%d Zeile wird von einer kombinierten Anpassung benutzt."
 msgstr[1] "%d/%d Zeilen werden von einer kombinierten Anpassung benutzt."
 
-#. R/lda.R: ngettext(length(const), "variable %s appears to be constant within groups",     "variables %s appear to be constant within groups")
+#. R/lda.R: ngettext(length(const), "variable %s appears to be constant within groups",     "variables %s appear to be constant within groups", domain = "R-MASS")
 #: R/lda.R:0
 msgid "variable %s appears to be constant within groups"
 msgid_plural "variables %s appear to be constant within groups"
 msgstr[0] "Variable %s scheint innerhalb der Gruppen konstant zu sein"
 msgstr[1] "Variablen %s scheinen innerhalb der Gruppen konstant zu sein"
 
+#~ msgid "theta ="
+#~ msgstr "theta ="
+
+#~ msgid "theta.ml: iter"
+#~ msgstr "theta.ml: iter"
+
 #~ msgid "Theta(%d) = %f, 2(Ls - Lm) = %f"
 #~ msgstr "Theta(%d) = %f, 2(Ls - Lm) = %f"
-
-#~ msgid "theta.ml: iter %d 'theta = %f'"
-#~ msgstr "theta.ml: iter %d 'theta = %f'"

@@ -95,7 +95,7 @@ lda.default <-
         empty <- lev[counts == 0L]
         warning(sprintf(ngettext(length(empty),
                                  "group %s is empty",
-                                 "groups %s are empty"),
+                                 "groups %s are empty", domain = "R-MASS"),
                         paste(empty, collapse = " ")), domain = NA)
         lev1 <- lev[counts > 0L]
         g <- factor(g, levels = lev1)
@@ -107,7 +107,7 @@ lda.default <-
     method <- match.arg(method)
     if(CV && !(method == "moment" || method == "mle"))
         stop(gettext("cannot use leave-one-out CV with method %s",
-                     sQuote(method)), domain = NA)
+                     sQuote(method)), domain = "R-MASS")
     ## drop attributes to avoid e.g. matrix() methods
     group.means <- tapply(c(x), list(rep(g, p), col(x)), mean)
     f1 <- sqrt(diag(var(x - group.means[g,  ])))
@@ -115,7 +115,7 @@ lda.default <-
         const <- format((1L:p)[f1 < tol])
         stop(sprintf(ngettext(length(const),
                      "variable %s appears to be constant within groups",
-                     "variables %s appear to be constant within groups"),
+                     "variables %s appear to be constant within groups", domain = "R-MASS"),
                      paste(const, collapse = " ")),
              domain = NA)
     }

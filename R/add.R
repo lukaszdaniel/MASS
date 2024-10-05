@@ -53,7 +53,7 @@ addterm.default <-
     for(i in seq_len(ns)) {
         tt <- scope[i]
         if(trace) {
-            message(gettextf("trying + %s", tt), domain = NA)
+            message(gettextf("trying + %s", tt), domain = "R-MASS")
 	    utils::flush.console()
         }
         nfit <- update(object, as.formula(paste("~ . +", tt)),
@@ -184,7 +184,7 @@ addterm.glm <-
     if(newn < oldn)
         warning(sprintf(ngettext(newn,
                                  "using the %d/%d row from a combined fit",
-                                 "using the %d/%d rows from a combined fit"),
+                                 "using the %d/%d rows from a combined fit", domain = "R-MASS"),
                         newn, oldn), domain = NA)
     wt <- object$prior.weights
     if(is.null(wt)) wt <- rep(1, n)
@@ -202,7 +202,7 @@ addterm.glm <-
                      function(x) paste(sort(x), collapse=":"))
     for(tt in scope) {
         if(trace) {
-            message(gettextf("trying + %s", tt), domain = NA)
+            message(gettextf("trying + %s", tt), domain = "R-MASS")
 	    utils::flush.console()
 	}
         stt <- paste(sort(strsplit(tt, ":")[[1L]]), collapse=":")
@@ -241,7 +241,7 @@ addterm.glm <-
     } else if(test == "F") {
         if(fam == "binomial" || fam == "poisson")
             warning(gettextf("F test assumes 'quasi%s' family", fam),
-                    domain = NA)
+                    domain = "R-MASS")
 	rdf <- object$df.residual
 	aod[, c("F value", "Pr(F)")] <- Fstat(aod, rdf)
     }
@@ -280,7 +280,7 @@ dropterm.default <-
     for(i in seq_len(ns)) {
         tt <- scope[i]
         if(trace) {
-            message(gettextf("trying - %s", tt), domain = NA)
+            message(gettextf("trying - %s", tt), domain = "R-MASS")
 	    utils::flush.console()
 	}
         nfit <- update(object, as.formula(paste("~ . -", tt)),
@@ -384,7 +384,7 @@ dropterm.glm <-
     if(is.null(wt)) wt <- rep.int(1, n)
     for(i in seq_len(ns)) {
         if(trace) {
-            message(gettextf("trying - %s", scope[i]), domain = NA)
+            message(gettextf("trying - %s", scope[i]), domain = "R-MASS")
 	    utils::flush.console()
 	}
         ii <- seq_along(asgn)[asgn == ndrop[i]]
@@ -425,7 +425,7 @@ dropterm.glm <-
     } else if(test == "F") {
         if(fam == "binomial" || fam == "poisson")
             warning(gettextf("F test assumes 'quasi%s' family", fam),
-                    domain = NA)
+                    domain = "R-MASS")
 	dev <- aod$Deviance
 	rms <- dev[1L]/rdf
         dev <- pmax(0, dev - dev[1L])
