@@ -1266,9 +1266,8 @@ msgstr "zdefiniowany kontrast jest pusty (nie ma PRAWDZIWYCH elementów)"
 #. R/negbin.R: gettextf("theta.ml: iter %d 'theta = %f'", it, signif(t0))
 #. R/negbin.R: gettextf("theta.ml: iter %d 'theta = %f'", it, signif(t0))
 #: R/negbin.R:0
-#, fuzzy
 msgid "theta.ml: iter %d 'theta = %f'"
-msgstr "theta.ml: iteracja"
+msgstr "theta.ml: iteracja %d 'theta = %f'"
 
 # MASS/R/add.R: 56
 # message(gettextf("trying + %s", tt), domain = "R-MASS")
