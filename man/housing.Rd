@@ -1,5 +1,5 @@
 % file MASS/man/housing.Rd
-% copyright (C) 1999-2023 W. N. Venables and B. D. Ripley
+% copyright (C) 1999-2025 W. N. Venables and B. D. Ripley
 %
 \name{housing}
 \alias{housing}
@@ -59,9 +59,7 @@ summary(house.glm0, correlation = FALSE)
 addterm(house.glm0, ~. + Sat:(Infl+Type+Cont), test = "Chisq")
 
 house.glm1 <- update(house.glm0, . ~ . + Sat*(Infl+Type+Cont))
-## IGNORE_RDIFF_BEGIN
 summary(house.glm1, correlation = FALSE)
-## IGNORE_RDIFF_END
 
 1 - pchisq(deviance(house.glm1), house.glm1$df.residual)
 
