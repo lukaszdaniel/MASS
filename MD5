@@ -4,8 +4,8 @@ d5ba6e6bff7bda8c5fc004b53fcd0c7e *inst/po/pl/LC_MESSAGES/R-MASS.mo
 a420ba4d9e019f198467a57cc1adcc9b *inst/po/ko/LC_MESSAGES/R-MASS.mo
 d19069a7fc7856ae45f40dc91b508a6a *inst/po/de/LC_MESSAGES/R-MASS.mo
 daaa03d818f8fce1ded854d16561aed5 *inst/po/fr/LC_MESSAGES/R-MASS.mo
-6437fcf0395baf945b6f74a43747da52 *inst/po/en@quot/LC_MESSAGES/R-MASS.mo
-0c1932d515b998be255b66a762968418 *inst/po/en@quot/LC_MESSAGES/MASS.mo
+6e21c33dbe75e6c3f75d16c7c57b71b3 *inst/po/en@quot/LC_MESSAGES/R-MASS.mo
+110a10dff045253362c5116388d5cfba *inst/po/en@quot/LC_MESSAGES/MASS.mo
 a571906966656c97dd04750ca7309717 *inst/po/it/LC_MESSAGES/R-MASS.mo
 ea5dfb16715140492edf278a4c2cb1b6 *inst/scripts/ch06.R
 3c43589522f6f8cd3e338be9cc067918 *inst/scripts/ch10.R
@@ -206,11 +206,11 @@ f4e6b3ffb6521ea7625515e2f0ae7f98 *tests/profile.R
 afd4f607cba7fda8ec4d22bffd88fc50 *tests/glm.nb.R
 00b16c488afa58920507c745d036e4ad *po/R-pl.po
 715a768613f9c9b09873c5c2880b0ebf *po/R-de.po
-44fa514f8e67e5cc90bd0568997f665c *po/R-MASS.pot
+f1cd8b5490cc21bd98390a3e0aab291c *po/R-MASS.pot
 96c9194daaa0e078efc2f749c1f7aa90 *po/R-it.po
 5dee4ba242a0e6e7c404eb142aaa81b1 *po/R-ko.po
 56c18f57418d03ea49a3bf3d86e09dbf *po/pl.po
-ed718e4dd008de34c9a019cc2698d0b0 *po/MASS.pot
+36741899decac0b70f15c8cc849552b7 *po/MASS.pot
 6fd615dfcda4f23ef583e49aa5ce0d2e *po/R-fr.po
 47098f41cb6846ff510934f42e8cc3cf *R/rlm.R
 dc943bfe2e1f589a6cfc1193da709248 *R/qda.R
