@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MASS 7.3-49\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2024-10-05 20:29\n"
+"POT-Creation-Date: 2025-06-05 16:21\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -91,7 +91,6 @@ msgid "'coef' must have same length as 'contrast.obj'"
 msgstr "'coef' deve avere la stessa lunghezza di 'contrast.obj'"
 
 #. R/loglm.R: stop("'data' has no 'terms' attribute")
-#. R/loglm.R: stop("'data' has no 'terms' attribute")
 #: R/loglm.R:0
 msgid "'data' has no 'terms' attribute"
 msgstr "'data' non ha l'attributo 'terms'"
@@ -153,8 +152,6 @@ msgid "'object' has no 'call' component.  Updating not possible"
 msgstr "'object' non ha alcun componente 'call'. L'aggiornamento non è possibile"
 
 #. R/lda.R: stop("'prior' is of incorrect length")
-#. R/lda.R: stop("'prior' is of incorrect length")
-#. R/qda.R: stop("'prior' is of incorrect length")
 #. R/qda.R: stop("'prior' is of incorrect length")
 #: R/lda.R:0 R/qda.R:0
 msgid "'prior' is of incorrect length"
@@ -170,7 +167,6 @@ msgstr "'ps' dev'essere almeno 'p'"
 msgid "'quantile' must be at least %d"
 msgstr "'quantile' dev'essere almeno %d"
 
-#. R/lqs.R: gettextf("'quantile' must be at most %d", n - 1)
 #. R/lqs.R: gettextf("'quantile' must be at most %d", n - 1)
 #: R/lqs.R:0
 msgid "'quantile' must be at most %d"
@@ -202,7 +198,6 @@ msgid "'theta' must be given"
 msgstr "'theta' dev'essere passato"
 
 #. R/negbin.R: stop("'theta' must be specified")
-#. R/negbin.R: stop("'theta' must be specified")
 #: R/negbin.R:0
 msgid "'theta' must be specified"
 msgstr "'theta' dev'essere specificato"
@@ -227,8 +222,6 @@ msgstr "'x' e 'y' devono avere lo stesso numero di righe"
 msgid "'x' contains missing or infinite values"
 msgstr "'x' contiene valori mancanti o infiniti"
 
-#. R/ucv.R: stop("'x' has length zero")
-#. R/ucv.R: stop("'x' has length zero")
 #. R/ucv.R: stop("'x' has length zero")
 #: R/ucv.R:0
 msgid "'x' has length zero"
@@ -277,7 +270,6 @@ msgid "AIC is not defined for this model, so 'stepAIC' cannot proceed"
 msgstr "AIC non è definito per questo modello, quindi 'stepAIC' non può procedere"
 
 #. R/stepAIC.R: stop("AIC undefined for REML fit")
-#. R/stepAIC.R: stop("AIC undefined for REML fit")
 #: R/stepAIC.R:0
 msgid "AIC undefined for REML fit"
 msgstr "AIC non definito per un adattamento REML"
@@ -287,7 +279,6 @@ msgstr "AIC non definito per un adattamento REML"
 msgid "Exponential values must be >= 0"
 msgstr "I valori esponenziali devono essere >= 0"
 
-#. R/add.R: gettextf("F test assumes 'quasi%s' family", fam)
 #. R/add.R: gettextf("F test assumes 'quasi%s' family", fam)
 #: R/add.R:0
 msgid "F test assumes 'quasi%s' family"
@@ -363,7 +354,6 @@ msgstr "I valori Weibull devono essere > 0"
 msgid "all frequencies are zero"
 msgstr "tutte le frequenze sono zero"
 
-#. R/mca.R: stop("all variables must be factors")
 #. R/mca.R: stop("all variables must be factors")
 #: R/mca.R:0
 msgid "all variables must be factors"
@@ -484,10 +474,6 @@ msgstr "riga o colonna vuota nella tabella"
 
 #. R/negbin.R: warning("estimate truncated at zero")
 #. R/negbin.R: gettext("estimate truncated at zero")
-#. R/negbin.R: warning("estimate truncated at zero")
-#. R/negbin.R: gettext("estimate truncated at zero")
-#. R/negbin.R: warning("estimate truncated at zero")
-#. R/negbin.R: gettext("estimate truncated at zero")
 #: R/negbin.R:0
 msgid "estimate truncated at zero"
 msgstr "stima troncata a zero"
@@ -545,8 +531,6 @@ msgid "initial configuration must be complete"
 msgstr "la configurazione iniziale dev'essere completa"
 
 #. R/lda.R: stop("invalid 'prior'")
-#. R/lda.R: stop("invalid 'prior'")
-#. R/qda.R: stop("invalid 'prior'")
 #. R/qda.R: stop("invalid 'prior'")
 #: R/lda.R:0 R/qda.R:0
 msgid "invalid 'prior'"
@@ -568,7 +552,6 @@ msgstr "configurazione iniziale non valida"
 msgid "invalid length(d)"
 msgstr "length(d) non valida"
 
-#. R/contr.sdif.R: stop("invalid number of levels")
 #. R/contr.sdif.R: stop("invalid number of levels")
 #: R/contr.sdif.R:0
 msgid "invalid number of levels"
@@ -617,7 +600,6 @@ msgstr "la lunghezza di 'weights' deve eguagliare il numero di osservazioni"
 msgid "length of 'wt' must equal number of observations"
 msgstr "la lunghezza di 'wt' deve eguagliare il numero di osservazioni"
 
-#. R/ucv.R: warning("minimum occurred at one end of the range")
 #. R/ucv.R: warning("minimum occurred at one end of the range")
 #: R/ucv.R:0
 msgid "minimum occurred at one end of the range"
@@ -691,13 +673,10 @@ msgid "no solution in the specified range of bandwidths"
 msgstr "non ci sono soluzioni nel range di badwidth specificato"
 
 #. R/add.R: stop("no terms in scope")
-#. R/add.R: stop("no terms in scope")
-#. R/add.R: stop("no terms in scope")
 #: R/add.R:0
 msgid "no terms in scope"
 msgstr "scope senza termini"
 
-#. R/add.R: stop("no terms in scope for adding to object")
 #. R/add.R: stop("no terms in scope for adding to object")
 #: R/add.R:0
 msgid "no terms in scope for adding to object"
@@ -730,7 +709,6 @@ msgstr "non ci sono abbastanza dati non-missing"
 msgid "nrow(x) and length(grouping) are different"
 msgstr "nrow(x) e length(grouping) sono differenti"
 
-#. R/add.R: stop("number of rows in use has changed: remove missing values?")
 #. R/add.R: stop("number of rows in use has changed: remove missing values?")
 #. R/stepAIC.R: stop("number of rows in use has changed: remove missing values?")
 #: R/add.R:0 R/stepAIC.R:0
@@ -778,13 +756,10 @@ msgid "profiling has found a better solution, so original fit had not converged"
 msgstr "la profilazione ha trovato una soluzione migliore, quindi la stima originale non converge"
 
 #. R/lda.R: stop("rank = 0: variables are numerically constant")
-#. R/lda.R: stop("rank = 0: variables are numerically constant")
-#. R/lda.R: stop("rank = 0: variables are numerically constant")
 #: R/lda.R:0
 msgid "rank = 0: variables are numerically constant"
 msgstr "rank = 0: le variabili sono numericamente costanti"
 
-#. R/qda.R: gettextf("rank deficiency in group %s", lev[i])
 #. R/qda.R: gettextf("rank deficiency in group %s", lev[i])
 #: R/qda.R:0
 msgid "rank deficiency in group %s"
@@ -801,7 +776,6 @@ msgid "response must be a factor"
 msgstr "la risposta dev'essere un fattore"
 
 #. R/polr.R: stop("response must have 3 or more levels")
-#. R/polr.R: stop("response must have 3 or more levels")
 #: R/polr.R:0
 msgid "response must have 3 or more levels"
 msgstr "la risposta deve avere 3 o più livelli"
@@ -811,7 +785,6 @@ msgstr "la risposta deve avere 3 o più livelli"
 msgid "response variable must be positive"
 msgstr "la variabile risposta dev'essere positiva"
 
-#. R/add.R: stop("scope is not a subset of term labels")
 #. R/add.R: stop("scope is not a subset of term labels")
 #: R/add.R:0
 msgid "scope is not a subset of term labels"
@@ -847,13 +820,11 @@ msgid "the contrast defined is empty (has no TRUE elements)"
 msgstr "il contrasto definito è vuoto (non ha elementi TRUE)"
 
 #. R/negbin.R: gettextf("theta.ml: iter %d 'theta = %f'", it, signif(t0))
-#. R/negbin.R: gettextf("theta.ml: iter %d 'theta = %f'", it, signif(t0))
 #: R/negbin.R:0
 #, fuzzy
 msgid "theta.ml: iter %d 'theta = %f'"
 msgstr "theta.ml: iterazione"
 
-#. R/add.R: gettextf("trying + %s", tt)
 #. R/add.R: gettextf("trying + %s", tt)
 #: R/add.R:0
 msgid "trying + %s"
@@ -891,8 +862,6 @@ msgstr "su"
 msgid "variable names in 'newdata' do not match those in 'object'"
 msgstr "i nomi delle variabili in 'newdata' non corrispondono a quelle in 'object'"
 
-#. R/lda.R: warning("variables are collinear")
-#. R/lda.R: warning("variables are collinear")
 #. R/lda.R: warning("variables are collinear")
 #: R/lda.R:0
 msgid "variables are collinear"
@@ -936,7 +905,6 @@ msgid_plural "groups %s are empty"
 msgstr[0] "il gruppo %s è vuoto"
 msgstr[1] "i gruppi %s sono vuoti"
 
-#. R/lqs.R: ngettext(nexact, "only %d set, so all sets will be tried", "only %d sets, so all sets will be tried")
 #. R/lqs.R: ngettext(nexact, "only %d set, so all sets will be tried", "only %d sets, so all sets will be tried")
 #: R/lqs.R:0
 msgid "only %d set, so all sets will be tried"

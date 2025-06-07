@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MASS 7.3-22\n"
-"POT-Creation-Date: 2024-10-05 20:29\n"
+"POT-Creation-Date: 2025-06-05 16:21\n"
 "PO-Revision-Date: 2013-03-11 13:47-0600\n"
 "Last-Translator: Chel Hee Lee <gnustats@gmail.com>\n"
 "Language-Team: R Development Translation Teams (Korean) <gnustats@korea.gnu.org>\n"
@@ -97,7 +97,6 @@ msgid "'coef' must have same length as 'contrast.obj'"
 msgstr "'coef'는 반드시 'contrast.obj'와 같은 길이를 가져야 합니다"
 
 #. R/loglm.R: stop("'data' has no 'terms' attribute")
-#. R/loglm.R: stop("'data' has no 'terms' attribute")
 #: R/loglm.R:0
 msgid "'data' has no 'terms' attribute"
 msgstr "'data'는 'terms'라는 속성이 없습니다"
@@ -159,8 +158,6 @@ msgid "'object' has no 'call' component.  Updating not possible"
 msgstr "'object'가 'call' 요소를 가지고 있지 않습니다.  가능하지 않은 업데이트입니다"
 
 #. R/lda.R: stop("'prior' is of incorrect length")
-#. R/lda.R: stop("'prior' is of incorrect length")
-#. R/qda.R: stop("'prior' is of incorrect length")
 #. R/qda.R: stop("'prior' is of incorrect length")
 #: R/lda.R:0 R/qda.R:0
 msgid "'prior' is of incorrect length"
@@ -176,7 +173,6 @@ msgstr ""
 msgid "'quantile' must be at least %d"
 msgstr ""
 
-#. R/lqs.R: gettextf("'quantile' must be at most %d", n - 1)
 #. R/lqs.R: gettextf("'quantile' must be at most %d", n - 1)
 #: R/lqs.R:0
 msgid "'quantile' must be at most %d"
@@ -208,7 +204,6 @@ msgid "'theta' must be given"
 msgstr "'theta'는 반드시 주어져야 합니다"
 
 #. R/negbin.R: stop("'theta' must be specified")
-#. R/negbin.R: stop("'theta' must be specified")
 #: R/negbin.R:0
 msgid "'theta' must be specified"
 msgstr "'theta'는 반드시 지정되어야 합니다"
@@ -233,8 +228,6 @@ msgstr "'x'와 'y'는 반드시 행의 개수와 같아야 합니다"
 msgid "'x' contains missing or infinite values"
 msgstr "'x'는 결측값 또는 무한한 값들을 포함하고 있습니다"
 
-#. R/ucv.R: stop("'x' has length zero")
-#. R/ucv.R: stop("'x' has length zero")
 #. R/ucv.R: stop("'x' has length zero")
 #: R/ucv.R:0
 msgid "'x' has length zero"
@@ -283,7 +276,6 @@ msgid "AIC is not defined for this model, so 'stepAIC' cannot proceed"
 msgstr "이 모델에 대해서 AIC는 정의되어 있지 않아 'stepAIC'를 구할 수 없습니다"
 
 #. R/stepAIC.R: stop("AIC undefined for REML fit")
-#. R/stepAIC.R: stop("AIC undefined for REML fit")
 #: R/stepAIC.R:0
 msgid "AIC undefined for REML fit"
 msgstr "REML 적합에 정의되지 않은 AIC입니다"
@@ -293,7 +285,6 @@ msgstr "REML 적합에 정의되지 않은 AIC입니다"
 msgid "Exponential values must be >= 0"
 msgstr "Exponenital values는 반드시 0보다 크거나 같아야 합니다"
 
-#. R/add.R: gettextf("F test assumes 'quasi%s' family", fam)
 #. R/add.R: gettextf("F test assumes 'quasi%s' family", fam)
 #: R/add.R:0
 msgid "F test assumes 'quasi%s' family"
@@ -369,7 +360,6 @@ msgstr "Weibull values는 반드시 0 보다 커야 합니다"
 msgid "all frequencies are zero"
 msgstr "모든 빈도수들이 0입니다"
 
-#. R/mca.R: stop("all variables must be factors")
 #. R/mca.R: stop("all variables must be factors")
 #: R/mca.R:0
 msgid "all variables must be factors"
@@ -491,10 +481,6 @@ msgstr "테이블에 행 또는 열이 비어 있습니다"
 
 #. R/negbin.R: warning("estimate truncated at zero")
 #. R/negbin.R: gettext("estimate truncated at zero")
-#. R/negbin.R: warning("estimate truncated at zero")
-#. R/negbin.R: gettext("estimate truncated at zero")
-#. R/negbin.R: warning("estimate truncated at zero")
-#. R/negbin.R: gettext("estimate truncated at zero")
 #: R/negbin.R:0
 msgid "estimate truncated at zero"
 msgstr ""
@@ -552,8 +538,6 @@ msgid "initial configuration must be complete"
 msgstr ""
 
 #. R/lda.R: stop("invalid 'prior'")
-#. R/lda.R: stop("invalid 'prior'")
-#. R/qda.R: stop("invalid 'prior'")
 #. R/qda.R: stop("invalid 'prior'")
 #: R/lda.R:0 R/qda.R:0
 msgid "invalid 'prior'"
@@ -575,7 +559,6 @@ msgstr "유효하지 않은 초기 설정입니다"
 msgid "invalid length(d)"
 msgstr "유효하지 않은 length(d)입니다"
 
-#. R/contr.sdif.R: stop("invalid number of levels")
 #. R/contr.sdif.R: stop("invalid number of levels")
 #: R/contr.sdif.R:0
 msgid "invalid number of levels"
@@ -624,7 +607,6 @@ msgstr "'weights'의 길이는 반드시 관측치의 개수와 같아야 합니
 msgid "length of 'wt' must equal number of observations"
 msgstr "'wt'의 길이는 반드시 관측치의 개수와 같아야 합니다"
 
-#. R/ucv.R: warning("minimum occurred at one end of the range")
 #. R/ucv.R: warning("minimum occurred at one end of the range")
 #: R/ucv.R:0
 msgid "minimum occurred at one end of the range"
@@ -698,13 +680,10 @@ msgid "no solution in the specified range of bandwidths"
 msgstr "주어진 bandwidths의 범위내에 솔루션이 없습니다"
 
 #. R/add.R: stop("no terms in scope")
-#. R/add.R: stop("no terms in scope")
-#. R/add.R: stop("no terms in scope")
 #: R/add.R:0
 msgid "no terms in scope"
 msgstr "scope에 아무런 항이 없습니다"
 
-#. R/add.R: stop("no terms in scope for adding to object")
 #. R/add.R: stop("no terms in scope for adding to object")
 #: R/add.R:0
 msgid "no terms in scope for adding to object"
@@ -737,7 +716,6 @@ msgstr ""
 msgid "nrow(x) and length(grouping) are different"
 msgstr "nrow(x)와 length(grouping)가 서로 다릅니다"
 
-#. R/add.R: stop("number of rows in use has changed: remove missing values?")
 #. R/add.R: stop("number of rows in use has changed: remove missing values?")
 #. R/stepAIC.R: stop("number of rows in use has changed: remove missing values?")
 #: R/add.R:0 R/stepAIC.R:0
@@ -785,13 +763,10 @@ msgid "profiling has found a better solution, so original fit had not converged"
 msgstr "프로파일링이 더 나은 해를 찾았으므로 초기의 적합은 수렴하지 않았음을 의미합니다"
 
 #. R/lda.R: stop("rank = 0: variables are numerically constant")
-#. R/lda.R: stop("rank = 0: variables are numerically constant")
-#. R/lda.R: stop("rank = 0: variables are numerically constant")
 #: R/lda.R:0
 msgid "rank = 0: variables are numerically constant"
 msgstr ""
 
-#. R/qda.R: gettextf("rank deficiency in group %s", lev[i])
 #. R/qda.R: gettextf("rank deficiency in group %s", lev[i])
 #: R/qda.R:0
 msgid "rank deficiency in group %s"
@@ -808,7 +783,6 @@ msgid "response must be a factor"
 msgstr "response는 반드시 요인이어야 합니다"
 
 #. R/polr.R: stop("response must have 3 or more levels")
-#. R/polr.R: stop("response must have 3 or more levels")
 #: R/polr.R:0
 msgid "response must have 3 or more levels"
 msgstr "response는 반드시 세개 이상의 레벨들을 가지고 있어야 합니다"
@@ -818,7 +792,6 @@ msgstr "response는 반드시 세개 이상의 레벨들을 가지고 있어야 
 msgid "response variable must be positive"
 msgstr "종속변수는 반드시 양수이어야 합니다"
 
-#. R/add.R: stop("scope is not a subset of term labels")
 #. R/add.R: stop("scope is not a subset of term labels")
 #: R/add.R:0
 msgid "scope is not a subset of term labels"
@@ -854,13 +827,11 @@ msgid "the contrast defined is empty (has no TRUE elements)"
 msgstr ""
 
 #. R/negbin.R: gettextf("theta.ml: iter %d 'theta = %f'", it, signif(t0))
-#. R/negbin.R: gettextf("theta.ml: iter %d 'theta = %f'", it, signif(t0))
 #: R/negbin.R:0
 #, fuzzy
 msgid "theta.ml: iter %d 'theta = %f'"
 msgstr "theta.ml: iter"
 
-#. R/add.R: gettextf("trying + %s", tt)
 #. R/add.R: gettextf("trying + %s", tt)
 #: R/add.R:0
 msgid "trying + %s"
@@ -898,8 +869,6 @@ msgstr ""
 msgid "variable names in 'newdata' do not match those in 'object'"
 msgstr "'newdata'내의 변수명들이 'object'내의 변수명들과 일치하지 않습니다"
 
-#. R/lda.R: warning("variables are collinear")
-#. R/lda.R: warning("variables are collinear")
 #. R/lda.R: warning("variables are collinear")
 #: R/lda.R:0
 msgid "variables are collinear"
@@ -940,7 +909,6 @@ msgid "group %s is empty"
 msgid_plural "groups %s are empty"
 msgstr[0] ""
 
-#. R/lqs.R: ngettext(nexact, "only %d set, so all sets will be tried", "only %d sets, so all sets will be tried")
 #. R/lqs.R: ngettext(nexact, "only %d set, so all sets will be tried", "only %d sets, so all sets will be tried")
 #: R/lqs.R:0
 msgid "only %d set, so all sets will be tried"
