@@ -426,7 +426,7 @@ profile.polr <- function(fitted, which = 1L:p, alpha = 0.01,
         pi <- Pnames[i]
         for(sgn in c(-1, 1)) {
             if(trace) {
-                message("\nParameter:", pi, c("down", "up")[(sgn + 1)/2 + 1])
+                message(gettextf("\nParameter: %s %s", pi, c("down", "up")[(sgn + 1)/2 + 1]))
                 utils::flush.console()
             }
             step <- 0

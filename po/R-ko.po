@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MASS 7.3-22\n"
-"POT-Creation-Date: 2025-06-05 16:21\n"
+"POT-Creation-Date: 2025-06-25 16:17\n"
 "PO-Revision-Date: 2013-03-11 13:47-0600\n"
 "Last-Translator: Chel Hee Lee <gnustats@gmail.com>\n"
 "Language-Team: R Development Translation Teams (Korean) <gnustats@korea.gnu.org>\n"
@@ -315,9 +315,10 @@ msgstr "다음은 'theta'에 대한 초기값입니다: %f"
 msgid "Iter. %d Alpha: %s"
 msgstr ""
 
-#. R/polr.R: message("\nParameter:", pi, c("down", "up")[(sgn + 1)/2 + 1])
+#. R/polr.R: gettextf("\nParameter: %s %s", pi, c("down", "up")[(sgn + 1)/2 +     1])
 #: R/polr.R:0
-msgid "Parameter:"
+#, fuzzy
+msgid "Parameter: %s %s"
 msgstr "파라미터:"
 
 #. R/cov.trob.R: warning("Probable convergence failure")
@@ -391,11 +392,6 @@ msgstr ""
 msgid "anova is not implemented for a single \"polr\" object"
 msgstr "anova는 단일 \"polr\" 객체에 구현되어 있지 않습니다"
 
-#. R/lqs.R: gettextf("at least %d cases are needed", p + 1)
-#: R/lqs.R:0
-msgid "at least %d cases are needed"
-msgstr ""
-
 #. R/negexp.R: stop("at least 3 distinct 'x' values are needed")
 #: R/negexp.R:0
 msgid "at least 3 distinct 'x' values are needed"
@@ -463,11 +459,6 @@ msgstr "dim(W)이 정확하지 않습니다"
 #: R/isoMDS.R:0 R/sammon.R:0
 msgid "distances must be result of 'dist' or a square matrix"
 msgstr "distances는 반드시 'dist'의 결과이거나 정방행렬이어야 합니다"
-
-#. R/polr.R: c("down", "up")
-#: R/polr.R:0
-msgid "down"
-msgstr ""
 
 #. R/rlm.R: gettextf("each element of '%s' must be logical", substitute(contrasts.list))
 #: R/rlm.R:0
@@ -858,11 +849,6 @@ msgstr "구현되지 않은 메소드입니다: %s"
 msgid "unsupported distribution"
 msgstr "지원되지 않는 분포입니다"
 
-#. R/polr.R: c("down", "up")
-#: R/polr.R:0
-msgid "up"
-msgstr ""
-
 #. R/lda.R: warning("variable names in 'newdata' do not match those in 'object'")
 #. R/qda.R: warning("variable names in 'newdata' do not match those in 'object'")
 #: R/lda.R:0 R/qda.R:0
@@ -902,6 +888,13 @@ msgstr[0] ""
 msgid "%d row with zero weights not counted"
 msgid_plural "%d rows with zero weights not counted"
 msgstr[0] "가중치를 가지지 않는 %d행은 세어지지 않습니다"
+
+#. R/lqs.R: ngettext(p + 1, "at least %d case is needed", "at least %d cases are needed")
+#: R/lqs.R:0
+#, fuzzy
+msgid "at least %d case is needed"
+msgid_plural "at least %d cases are needed"
+msgstr[0] "적어도 3개의 다른 'x'값들이 필요합니다"
 
 #. R/lda.R: ngettext(length(empty), "group %s is empty", "groups %s are empty",     domain = "R-MASS")
 #: R/lda.R:0

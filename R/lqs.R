@@ -206,7 +206,7 @@ cov.rob <- function(x, cor = FALSE, quantile.used = floor((n+p+1)/2),
 	stop("missing or infinite values are not allowed")
     n <- nrow(x); p <- ncol(x)
     if(n < p+1)
-        stop(gettextf("at least %d cases are needed", p+1), domain = NA)
+        stop(sprintf(ngettext(p+1, "at least %d case is needed", "at least %d cases are needed"), p+1), domain = NA)
     if(method == "classical") {
 	ans <- list(center = colMeans(x), cov = var(x))
     } else {

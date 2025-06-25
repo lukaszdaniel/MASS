@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MASS 7.3-30\n"
 "Report-Msgid-Bugs-To: bugs@R-project.org\n"
-"POT-Creation-Date: 2025-06-05 16:21\n"
-"PO-Revision-Date: 2024-09-15 20:19+0200\n"
+"POT-Creation-Date: 2025-06-25 16:17\n"
+"PO-Revision-Date: 2025-06-25 16:18+0200\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl_PL\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.6\n"
 
 #. R/negbin.R: gettextf("\"%s\" link not available for negative binomial family; available links are \"identity\", \"log\" and \"sqrt\"",     linktemp)
 #: R/negbin.R:0
@@ -274,12 +274,12 @@ msgstr "AIC nie jest zdefiniowane dla dopasowania REML"
 #. R/fitdistr.R: stop("Exponential values must be >= 0")
 #: R/fitdistr.R:0
 msgid "Exponential values must be >= 0"
-msgstr "wartości eksponencjalne muszą być >= 0"
+msgstr "wartości wykładnicze muszą być >= 0"
 
 #. R/add.R: gettextf("F test assumes 'quasi%s' family", fam)
 #: R/add.R:0
 msgid "F test assumes 'quasi%s' family"
-msgstr "test Fishera zakłada rodzinę 'kwazi-%s'"
+msgstr "test Fishera zakłada rodzinę 'quasi-%s'"
 
 #. R/sammon.R: stop("Infs not allowed in 'd'")
 #: R/sammon.R:0
@@ -306,10 +306,10 @@ msgstr "Początkowa wartość dla 'theta': %f"
 msgid "Iter. %d Alpha: %s"
 msgstr "Iteracja %d Alpha: %s"
 
-#. R/polr.R: message("\nParameter:", pi, c("down", "up")[(sgn + 1)/2 + 1])
+#. R/polr.R: gettextf("\nParameter: %s %s", pi, c("down", "up")[(sgn + 1)/2 +     1])
 #: R/polr.R:0
-msgid "Parameter:"
-msgstr "Parametr:"
+msgid "Parameter: %s %s"
+msgstr "Parametr: %s %s"
 
 #. R/cov.trob.R: warning("Probable convergence failure")
 #: R/cov.trob.R:0
@@ -365,12 +365,12 @@ msgstr "osiągnięto limit zmian"
 #. R/sammon.R: stop("an initial configuration must be supplied if there are NAs in 'd'")
 #: R/sammon.R:0
 msgid "an initial configuration must be supplied if there are NAs in 'd'"
-msgstr "początkowa konfiguracja musi zostać dostarczona jeśli są wartości Na w 'd'"
+msgstr "początkowa konfiguracja musi zostać dostarczona jeśli są wartości NA w 'd'"
 
 #. R/isoMDS.R: stop("an initial configuration must be supplied with NA/Infs in 'd'")
 #: R/isoMDS.R:0
 msgid "an initial configuration must be supplied with NA/Infs in 'd'"
-msgstr "początkowa konfiguracja musi zostać dostarczona z wartosciami NA/Inf w 'd'"
+msgstr "początkowa konfiguracja musi zostać dostarczona z wartościami NA/Inf w 'd'"
 
 #. R/polr.R: warning("an intercept is needed and assumed")
 #: R/polr.R:0
@@ -381,11 +381,6 @@ msgstr "przecięcie jest potrzebne oraz jest zakładane"
 #: R/polr.R:0
 msgid "anova is not implemented for a single \"polr\" object"
 msgstr "funkcja 'anova()' nie jest zaimplementowana dla pojedynczego obiektu klasy \"polr\""
-
-#. R/lqs.R: gettextf("at least %d cases are needed", p + 1)
-#: R/lqs.R:0
-msgid "at least %d cases are needed"
-msgstr "co najmniej %d przypadków jest potrzebnych"
 
 #. R/negexp.R: stop("at least 3 distinct 'x' values are needed")
 #: R/negexp.R:0
@@ -405,7 +400,7 @@ msgstr "próba znalezienia odpowiednich wartości startowych nie powiodła się"
 #. R/kde2d.R: stop("bandwidths must be strictly positive")
 #: R/kde2d.R:0
 msgid "bandwidths must be strictly positive"
-msgstr "szerokości pasma muszą być ściścle dodatnie"
+msgstr "szerokości pasma muszą być ściśle dodatnie"
 
 #. R/corresp.R: stop("biplot is only possible if nf >= 2")
 #: R/corresp.R:0
@@ -431,7 +426,7 @@ msgstr "nie można użyć 'zostaw-jeden' CV z metodą %s"
 #. R/rlm.R: stop("columns of 'contrast.obj' must define a contrast (sum to zero)")
 #: R/rlm.R:0
 msgid "columns of 'contrast.obj' must define a contrast (sum to zero)"
-msgstr "kolumny 'contrast.obj' muszą określać konstrast (sumować się do zera)"
+msgstr "kolumny 'contrast.obj' muszą określać kontrast (sumować się do zera)"
 
 #. R/kde2d.R: stop("data vectors must be the same length")
 #: R/kde2d.R:0
@@ -453,11 +448,6 @@ msgstr "'dim(W)' nie jest poprawne"
 #: R/isoMDS.R:0 R/sammon.R:0
 msgid "distances must be result of 'dist' or a square matrix"
 msgstr "odległości muszą być wynikiem 'dist' lub być kwadratową macierzą"
-
-#. R/polr.R: c("down", "up")
-#: R/polr.R:0
-msgid "down"
-msgstr "down"
 
 #. R/rlm.R: gettextf("each element of '%s' must be logical", substitute(contrasts.list))
 #: R/rlm.R:0
@@ -847,11 +837,6 @@ msgstr "niezaimplementowana metoda: %s"
 msgid "unsupported distribution"
 msgstr "niewspierany rozkład"
 
-#. R/polr.R: c("down", "up")
-#: R/polr.R:0
-msgid "up"
-msgstr "up"
-
 #. R/lda.R: warning("variable names in 'newdata' do not match those in 'object'")
 #. R/qda.R: warning("variable names in 'newdata' do not match those in 'object'")
 #: R/lda.R:0 R/qda.R:0
@@ -896,6 +881,14 @@ msgstr[0] "%d wiersz z zerowymi wagami nie został zliczony"
 msgstr[1] "%d wiersze z zerowymi wagami nie zostały zliczone"
 msgstr[2] "%d wierszy z zerowymi wagami nie zostało zliczonych"
 
+#. R/lqs.R: ngettext(p + 1, "at least %d case is needed", "at least %d cases are needed")
+#: R/lqs.R:0
+msgid "at least %d case is needed"
+msgid_plural "at least %d cases are needed"
+msgstr[0] "co najmniej %d przypadek jest potrzebny"
+msgstr[1] "co najmniej %d przypadki są potrzebne"
+msgstr[2] "co najmniej %d przypadków jest potrzebnych"
+
 #. R/lda.R: ngettext(length(empty), "group %s is empty", "groups %s are empty",     domain = "R-MASS")
 #: R/lda.R:0
 msgid "group %s is empty"
@@ -927,6 +920,15 @@ msgid_plural "variables %s appear to be constant within groups"
 msgstr[0] "zmienna %s wygląda na stałą wewnątrz grup"
 msgstr[1] "zmienne %s wyglądają na stałe wewnątrz grup"
 msgstr[2] "zmienne %s wyglądają na stałe wewnątrz grup"
+
+#~ msgid "Parameter:"
+#~ msgstr "Parametr:"
+
+#~ msgid "down"
+#~ msgstr "down"
+
+#~ msgid "up"
+#~ msgstr "up"
 
 #~ msgid "theta ="
 #~ msgstr "theta ="
@@ -1068,9 +1070,6 @@ msgstr[2] "zmienne %s wyglądają na stałe wewnątrz grup"
 
 #~ msgid "Likelihood ratio tests of ordinal regression models"
 #~ msgstr "testy stosunku funkcji wiarygodności dla modeli regresji porządkowej"
-
-#~ msgid "Parameter: %s down"
-#~ msgstr "Parametr: %s w dół"
 
 #~ msgid "Converged in %d iterations"
 #~ msgstr "Uzbieżnione w %d iteracjach"

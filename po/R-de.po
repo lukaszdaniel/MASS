@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4.1.0 / MASS 7.3-53.1\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
-"POT-Creation-Date: 2025-06-05 16:21\n"
+"POT-Creation-Date: 2025-06-25 16:17\n"
 "PO-Revision-Date: 2021-05-04 15:23+0200\n"
 "Last-Translator: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
@@ -309,9 +309,10 @@ msgstr "Anfänglicher Wert für 'theta': %f"
 msgid "Iter. %d Alpha: %s"
 msgstr "Iter. %d Alpha: %s"
 
-#. R/polr.R: message("\nParameter:", pi, c("down", "up")[(sgn + 1)/2 + 1])
+#. R/polr.R: gettextf("\nParameter: %s %s", pi, c("down", "up")[(sgn + 1)/2 +     1])
 #: R/polr.R:0
-msgid "Parameter:"
+#, fuzzy
+msgid "Parameter: %s %s"
 msgstr "Parameter:"
 
 #. R/cov.trob.R: warning("Probable convergence failure")
@@ -385,11 +386,6 @@ msgstr "ein Schnittpunkt wird benötigt und vorausgesetzt"
 msgid "anova is not implemented for a single \"polr\" object"
 msgstr "Varianzanalyse ist nicht für ein einzelnes \"polr\"-Objekt implementiert"
 
-#. R/lqs.R: gettextf("at least %d cases are needed", p + 1)
-#: R/lqs.R:0
-msgid "at least %d cases are needed"
-msgstr "mindestens %d Fälle werden benötigt"
-
 #. R/negexp.R: stop("at least 3 distinct 'x' values are needed")
 #: R/negexp.R:0
 msgid "at least 3 distinct 'x' values are needed"
@@ -456,11 +452,6 @@ msgstr "dim(W) ist nicht richtig"
 #: R/isoMDS.R:0 R/sammon.R:0
 msgid "distances must be result of 'dist' or a square matrix"
 msgstr "Distanzen müssen das Ergebnis einer 'dist'- oder quadratischen Matrix sein"
-
-#. R/polr.R: c("down", "up")
-#: R/polr.R:0
-msgid "down"
-msgstr "ab"
 
 #. R/rlm.R: gettextf("each element of '%s' must be logical", substitute(contrasts.list))
 #: R/rlm.R:0
@@ -850,11 +841,6 @@ msgstr "nicht implementierte Methode: %s"
 msgid "unsupported distribution"
 msgstr "nicht unterstützte Verteilung"
 
-#. R/polr.R: c("down", "up")
-#: R/polr.R:0
-msgid "up"
-msgstr "auf"
-
 #. R/lda.R: warning("variable names in 'newdata' do not match those in 'object'")
 #. R/qda.R: warning("variable names in 'newdata' do not match those in 'object'")
 #: R/lda.R:0 R/qda.R:0
@@ -897,6 +883,14 @@ msgid_plural "%d rows with zero weights not counted"
 msgstr[0] "%d Zeile mit Gewicht Null nicht gezählt"
 msgstr[1] "%d Zeilen mit Gewicht Null nicht gezählt"
 
+#. R/lqs.R: ngettext(p + 1, "at least %d case is needed", "at least %d cases are needed")
+#: R/lqs.R:0
+#, fuzzy
+msgid "at least %d case is needed"
+msgid_plural "at least %d cases are needed"
+msgstr[0] "mindestens %d Fälle werden benötigt"
+msgstr[1] "mindestens %d Fälle werden benötigt"
+
 #. R/lda.R: ngettext(length(empty), "group %s is empty", "groups %s are empty",     domain = "R-MASS")
 #: R/lda.R:0
 msgid "group %s is empty"
@@ -924,6 +918,12 @@ msgid "variable %s appears to be constant within groups"
 msgid_plural "variables %s appear to be constant within groups"
 msgstr[0] "Variable %s scheint innerhalb der Gruppen konstant zu sein"
 msgstr[1] "Variablen %s scheinen innerhalb der Gruppen konstant zu sein"
+
+#~ msgid "down"
+#~ msgstr "ab"
+
+#~ msgid "up"
+#~ msgstr "auf"
 
 #~ msgid "theta ="
 #~ msgstr "theta ="

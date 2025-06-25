@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MASS 7.2-20\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
-"POT-Creation-Date: 2025-06-05 16:21\n"
+"POT-Creation-Date: 2025-06-25 16:17\n"
 "PO-Revision-Date: 2021-04-12 18:55+0200\n"
 "Last-Translator: Philippe Grosjean <phgrosjean@sciviews.org>\n"
 "Language-Team: French <R-core@r-project.org>\n"
@@ -310,9 +310,10 @@ msgstr "Valeur initiale pour 'theta' : %f"
 msgid "Iter. %d Alpha: %s"
 msgstr "Itér. %d Alpha : %s"
 
-#. R/polr.R: message("\nParameter:", pi, c("down", "up")[(sgn + 1)/2 + 1])
+#. R/polr.R: gettextf("\nParameter: %s %s", pi, c("down", "up")[(sgn + 1)/2 +     1])
 #: R/polr.R:0
-msgid "Parameter:"
+#, fuzzy
+msgid "Parameter: %s %s"
 msgstr "Paramètre :"
 
 #. R/cov.trob.R: warning("Probable convergence failure")
@@ -386,11 +387,6 @@ msgstr "une coordonnée à l'origine est nécessaire et assumée"
 msgid "anova is not implemented for a single \"polr\" object"
 msgstr "l'anova n'est pas implémentée pour un objet \"polr\""
 
-#. R/lqs.R: gettextf("at least %d cases are needed", p + 1)
-#: R/lqs.R:0
-msgid "at least %d cases are needed"
-msgstr "il faut au moins %d cas"
-
 #. R/negexp.R: stop("at least 3 distinct 'x' values are needed")
 #: R/negexp.R:0
 msgid "at least 3 distinct 'x' values are needed"
@@ -457,11 +453,6 @@ msgstr "dim(W) est incorrect"
 #: R/isoMDS.R:0 R/sammon.R:0
 msgid "distances must be result of 'dist' or a square matrix"
 msgstr "les distances doivent provenir de 'dist', ou être une matrice carrée"
-
-#. R/polr.R: c("down", "up")
-#: R/polr.R:0
-msgid "down"
-msgstr "vers le bas"
 
 #. R/rlm.R: gettextf("each element of '%s' must be logical", substitute(contrasts.list))
 #: R/rlm.R:0
@@ -852,11 +843,6 @@ msgstr "méthode non implémentée: %s"
 msgid "unsupported distribution"
 msgstr "distribution non supportée"
 
-#. R/polr.R: c("down", "up")
-#: R/polr.R:0
-msgid "up"
-msgstr "vers le haut"
-
 #. R/lda.R: warning("variable names in 'newdata' do not match those in 'object'")
 #. R/qda.R: warning("variable names in 'newdata' do not match those in 'object'")
 #: R/lda.R:0 R/qda.R:0
@@ -899,6 +885,14 @@ msgid_plural "%d rows with zero weights not counted"
 msgstr[0] "%d ligne de poids nul non comptabilisée"
 msgstr[1] "%d lignes de poids nul non comptabilisées"
 
+#. R/lqs.R: ngettext(p + 1, "at least %d case is needed", "at least %d cases are needed")
+#: R/lqs.R:0
+#, fuzzy
+msgid "at least %d case is needed"
+msgid_plural "at least %d cases are needed"
+msgstr[0] "il faut au moins %d cas"
+msgstr[1] "il faut au moins %d cas"
+
 #. R/lda.R: ngettext(length(empty), "group %s is empty", "groups %s are empty",     domain = "R-MASS")
 #: R/lda.R:0
 msgid "group %s is empty"
@@ -926,6 +920,12 @@ msgid "variable %s appears to be constant within groups"
 msgid_plural "variables %s appear to be constant within groups"
 msgstr[0] "la variable %s semble être constante à l'intérieur des groupes"
 msgstr[1] "les variables %s semblent être constantes à l'intérieur des groupes"
+
+#~ msgid "down"
+#~ msgstr "vers le bas"
+
+#~ msgid "up"
+#~ msgstr "vers le haut"
 
 #~ msgid "theta ="
 #~ msgstr "theta ="
