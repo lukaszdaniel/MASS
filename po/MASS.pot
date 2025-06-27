@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MASS 7.3-65\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-18 13:38+0200\n"
+"POT-Creation-Date: 2025-06-27 23:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,20 +17,20 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: MASS.c:68
+#: MASS.c:64
 msgid "initial configuration has duplicates"
 msgstr ""
 
-#: MASS.c:127
+#: MASS.c:123
 #, c-format
 msgid "stress after %3d iters: %7.5f\n"
 msgstr ""
 
-#: MASS.c:147
+#: MASS.c:143
 #, c-format
 msgid "stress after %3d iters: %7.5f, magic = %5.3f\n"
 msgstr ""
 
-#: MASS.c:449
+#: MASS.c:445
 msgid "maximum count exceeded in pairwise distance binning"
 msgstr ""
