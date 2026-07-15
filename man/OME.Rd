@@ -1,5 +1,5 @@
 % file MASS/man/OME.Rd
-% copyright (C) 1994-2023 W. N. Venables and B. D. Ripley
+% copyright (C) 1994-2026 W. N. Venables and B. D. Ripley
 %
 \name{OME}
 \alias{OME}
@@ -26,7 +26,7 @@ OME
   The \code{OME} data frame has 1129 rows and 7 columns:
   \describe{
     \item{\code{ID}}{
-      Subject ID (1 to 99, with some IDs missing). A few subjects were
+      Subject ID (1 to 100, with some IDs missing). A few subjects were
       measured at different ages.
     }
     \item{\code{OME}}{

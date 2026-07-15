@@ -1,5 +1,5 @@
-c00399cb1430b03d26d2854a8b35e3f2 *ChangeLog
-e410ad3625cf2d54f3f622a5b4c4d32e *DESCRIPTION
+e4d6ebe3f356bbd984876a065ad2d0d5 *ChangeLog
+abc1f42f0ecca9166d8ba1d5ea41e582 *DESCRIPTION
 35aff05a505ecf7e81e0473767794ca9 *INDEX
 c7acdc0fa828f781a0a5586ab9d4fa1b *LICENCE.note
 09d7d680cfa398e07d149e8724110385 *NAMESPACE
@@ -45,7 +45,7 @@ f1db7f02de9bae7087fc01a7ffe4748e *R/truehist.R
 bbde4307b98d968e9b85d55f46a0cbe6 *R/ucv.R
 29fdbf836b6ebffc562ce7d2b54ab5eb *R/write.matrix.R
 4f74ab00a8fd8a8eaf56957b1e13aa52 *R/zzz.R
-4454e632feb75ce4f508807d50b3b12f *build/partial.rdb
+38ab1962eec6eab5c520a4502634d7b6 *build/partial.rdb
 e4aa969dc4062a5dfa605a141bf32f29 *data/Aids2.rda
 3c5a57a9f86ee32ac10f6114826a762b *data/Animals.rda
 689cd33a62093be4f53a38cc8405e083 *data/Boston.rda
@@ -133,7 +133,7 @@ edc0346a21e08acb8a96c9e04df03f39 *data/topo.rda
 c5f389af5e309c81135890293b5c867b *data/waders.rda
 b5b8b289d333f482e24ad32e67f73b39 *data/whiteside.rda
 7bc59b5368bad84fac2fad52f03298de *data/wtloss.rda
-10878e5c8a336328ab47d010da239abb *inst/CITATION
+720b661e3eb42ee47911979faa62079f *inst/CITATION
 cfe49768ecb548ac7f483e75ce75d0e0 *inst/NEWS
 4691e3b8e5718e48ae6ea1d48ce191ab *inst/po/de/LC_MESSAGES/R-MASS.mo
 d6e9963be0b403f374f587eb55e956ae *inst/po/en@quot/LC_MESSAGES/R-MASS.mo
@@ -168,7 +168,7 @@ fe121563de0c24631efbaffaad856cd1 *man/Insurance.Rd
 dbe65c004bf4d2263c829202f2615dad *man/MASS-internal.Rd
 fa8c2c8e00a52e7731604be22fafcec6 *man/Melanoma.Rd
 9535c4de30b076e0ba2ec4d1f868b9ac *man/Null.Rd
-c2730a9f8d03251c4acc3cd7e2ffc3f9 *man/OME.Rd
+e89534c952dbbdfd653bc97a7f58d250 *man/OME.Rd
 b3ee04fa917bb291c47d52830d77ffdc *man/Pima.tr.Rd
 a7ba31f8b57db3cbb58b636ec45ad19d *man/Rabbit.Rd
 c542b9d655977d4279f267e714581841 *man/Rubber.Rd
@@ -331,7 +331,7 @@ afd4f607cba7fda8ec4d22bffd88fc50 *tests/glm.nb.R
 7fea2161b12d01c8940107342815dd0e *tests/hubers.R
 763974820d624250950813c5cf19deac *tests/lme.R
 a9c0f26e1bc307fab7ddb195a5592a29 *tests/loglm.R
-274e2255e4054f8a5adf5c0d9035d3a0 *tests/polr.R
+06ca6c760f1844250cfa4835ee7caa79 *tests/polr.R
 f4e6b3ffb6521ea7625515e2f0ae7f98 *tests/profile.R
 a23ddf89e02a02ed030e4ed5538d3430 *tests/regression.R
 51c912fb8fac4844110b52651f79a8e8 *tests/regression.Rout.save
