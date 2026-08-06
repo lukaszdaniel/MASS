@@ -3,10 +3,10 @@
 pdf("polr.pdf")
 
 library(MASS)
-y <- structure(as.integer(c(1, 2, 3, 1, 2, 3)), .Label = c("1", "2", "3"),
+y <- structure(as.integer(c(1, 2, 3, 1, 2, 3)), levels = c("1", "2", "3"),
                class = c("ordered", "factor"))
 Freq <- c(10, 0, 10, 10, 0, 10)
-group <- structure(as.integer(c(1, 1, 1, 2, 2, 2)), .Label = c("1", "2"),
+group <- structure(as.integer(c(1, 1, 1, 2, 2, 2)), levels = c("1", "2"),
                    class = "factor")
 
 temp <- polr(y ~ group, weights = Freq)

@@ -1,4 +1,9 @@
-7.3-65  (unrelased)
+
+7.3-66 	(unreleased)
+	man/OME.Rd: correct the range of 'ID'.  Reported by Donald Tang.
+	tests/polr.R: replace .Label by levels, twice
+
+7.3-65  (released 2025-02-19)
 	data/epil: The value of 'y' in line 31 was corrected from 21 to 23.
 	Reported by 'Tan Siew Li, Linda'.
 	tests/MASS-Ex.Rout.save: updated.

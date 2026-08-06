@@ -1,9 +1,11 @@
-citHeader("To cite the MASS package in publications use:")
+citHeader("To cite the nnet package in publications use:")
 
-bibentry(bibtype = "Book",
+bibentry(entry="Book",
+         bibtype = "Book",
          title = "Modern Applied Statistics with S",
-         author = c(as.person("W. N. Venables"),
-                    as.person("B. D. Ripley")),
+         author = c(person(c("Brian", "D."), "Ripley",
+                           email = "Brian.Ripley@R-project.org"),
+                    person(c("William", "N."), "Venables")),
 	 publisher = "Springer",
          edition = "Fourth",
          address      = "New York",
